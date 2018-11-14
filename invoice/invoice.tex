@@ -1,0 +1,52 @@
+\documentclass{article}
+\RequirePackage[letterpaper, margin=1in]{geometry} % 1 inch margins required
+
+% text
+\RequirePackage[utf8]{inputenc}
+\setlength\parindent{0pt}
+\setlength{\parskip}{1em}
+\renewcommand{\familydefault}{\sfdefault}
+
+\usepackage{array}
+\newcolumntype{P}[1]{>{\raggedleft\arraybackslash}p{#1}}
+
+\usepackage{soul}
+
+\begin{document}
+invoice: simple dual galvanostat \\
+request date: 2018-11-01 \\
+customer: Oliver Williams \\
+group: Wickens
+
+\begin{tabular}{
+    P{\dimexpr 0.3\linewidth-2\tabcolsep}|
+    P{\dimexpr 0.2\linewidth-2\tabcolsep}|
+    P{\dimexpr 0.1\linewidth-2\tabcolsep}|
+    P{\dimexpr 0.1\linewidth-2\tabcolsep}|
+    P{\dimexpr 0.1\linewidth-2\tabcolsep}|
+    p{\dimexpr 0.2\linewidth-2\tabcolsep}}
+  item & part & rate & count & total & comment \\ \hline
+  enclosure & CU-3005-A\_BUD & 9.00 & 1 & 9.00 & \\
+  10 K panel mount digi pot & & 3.00 & 1 & 3.00 & \\
+  banana socket & & & 4 & & \\
+  switch with LED & & 2.00 & 1 & 2.00 & \\
+  barrel plug & & & 1 & & \\
+  printed board & & 20.00 & 1 & 20.00 & \\
+  enclosure feet & & 0.25 & 4 & 1.00 & \\
+  foot wire & & 0.25 & 6 & 1.50 & \\
+  standoffs & & 0.25 & 4 & 1.00 & \\
+  PCB board connectors & & XXX & 4 & XXX & \\
+  test points & & XXX & 6 & XXX & \\
+  capacitors, tantilum & & XXX & 3 & XXX & \\
+  capacitors, electrolytic & & XXX & 2 & XXX & \\
+  8 pin machined sockets & XXX & XXX & 5 & XXX & \\
+  variable resistor & 3296 series & 3.00 & 3 & 9.00 & \\
+  dual OP-AMP & LM358N & 0.50 & 4 & 2.00 & \\
+  differential amplifier & INA105KP & 10.00 & 1 & 10.00 & \\
+\end{tabular}
+parts total: \$XXX \\
+XX hours labor (Blaise Thompson): \$XXX \\
+total bill: \$XXX \\
+billed 2018-11-XX - internal ID XXXX \\
+
+\end{document}
