@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2019/dev/Debian) (preloaded format=pdflatex 2018.10.22)  13 NOV 2018 18:49
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2019/dev/Debian) (preloaded format=pdflatex 2018.11.13)  14 NOV 2018 11:59
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -58,6 +58,9 @@ Package: ifxetex 2010/09/12 v0.6 Provides ifxetex conditional
 Package: inputenc 2018/04/06 v1.3b Input encoding file
 \inpenc@prehook=\toks16
 \inpenc@posthook=\toks17
+)
+(/usr/share/texlive/texmf-dist/tex/latex/setspace/setspace.sty
+Package: setspace 2011/12/19 v6.7a set line spacing
 )
 (/usr/share/texlive/texmf-dist/tex/latex/hyperref/hyperref.sty
 Package: hyperref 2018/09/30 v6.88a Hypertext links for LaTeX
@@ -186,7 +189,7 @@ File: pdftex.def 2018/01/08 v1.0l Graphics/color driver for pdftex
 ))
 \Gin@req@height=\dimen115
 \Gin@req@width=\dimen116
-))
+)
 (/usr/share/texlive/texmf-dist/tex/latex/pdfpages/pdfpages.sty
 Package: pdfpages 2017/10/31 v0.5l Insert pages of external PDF documents (AM)
 
@@ -237,23 +240,41 @@ File: pppdftex.def 2017/10/31 v0.5l Pdfpages driver for pdfTeX (AM)
 \AM@toc@title=\toks19
 \c@AM@survey=\count104
 \AM@templatesizebox=\box27
-) (./manual.aux)
+)
+(/usr/share/texlive/texmf-dist/tex/latex/tools/array.sty
+Package: array 2018/04/30 v2.4h Tabular extension package (FMi)
+\col@sep=\dimen121
+\ar@mcellbox=\box28
+\extrarowheight=\dimen122
+\NC@list=\toks20
+\extratabsurround=\skip47
+\backup@length=\skip48
+\ar@cellbox=\box29
+)
+(/usr/share/texlive/texmf-dist/tex/latex/enumitem/enumitem.sty
+Package: enumitem 2011/09/28 v3.5.2 Customized lists
+\labelindent=\skip49
+\enit@outerparindent=\dimen123
+\enit@toks=\toks21
+\enit@inbox=\box30
+\enitdp@description=\count105
+)) (./manual.aux)
 \openout1 = `manual.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 6.
-LaTeX Font Info:    ... okay on input line 6.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 6.
-LaTeX Font Info:    ... okay on input line 6.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 6.
-LaTeX Font Info:    ... okay on input line 6.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 6.
-LaTeX Font Info:    ... okay on input line 6.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 6.
-LaTeX Font Info:    ... okay on input line 6.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 6.
-LaTeX Font Info:    ... okay on input line 6.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 6.
-LaTeX Font Info:    ... okay on input line 6.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 7.
+LaTeX Font Info:    ... okay on input line 7.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 7.
+LaTeX Font Info:    ... okay on input line 7.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 7.
+LaTeX Font Info:    ... okay on input line 7.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 7.
+LaTeX Font Info:    ... okay on input line 7.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 7.
+LaTeX Font Info:    ... okay on input line 7.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 7.
+LaTeX Font Info:    ... okay on input line 7.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 7.
+LaTeX Font Info:    ... okay on input line 7.
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
 *geometry* verbose mode - [ preamble ] result:
@@ -288,19 +309,19 @@ LaTeX Font Info:    ... okay on input line 6.
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
-\AtBeginShipoutBox=\box28
-Package hyperref Info: Link coloring ON on input line 6.
+\AtBeginShipoutBox=\box31
+Package hyperref Info: Link coloring ON on input line 7.
 (/usr/share/texlive/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2016/05/21 v2.44 Cross-referencing by name of section
 
 (/usr/share/texlive/texmf-dist/tex/generic/oberdiek/gettitlestring.sty
 Package: gettitlestring 2016/05/16 v1.5 Cleanup title references (HO)
 )
-\c@section@level=\count105
+\c@section@level=\count106
 )
-LaTeX Info: Redefining \ref on input line 6.
-LaTeX Info: Redefining \pageref on input line 6.
-LaTeX Info: Redefining \nameref on input line 6.
+LaTeX Info: Redefining \ref on input line 7.
+LaTeX Info: Redefining \pageref on input line 7.
+LaTeX Info: Redefining \nameref on input line 7.
 
 (./manual.out) (./manual.out)
 \@outlinefile=\write3
@@ -309,17 +330,17 @@ LaTeX Info: Redefining \nameref on input line 6.
 
 (/usr/share/texlive/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count106
-\scratchdimen=\dimen121
-\scratchbox=\box29
-\nofMPsegments=\count107
-\nofMParguments=\count108
-\everyMPshowfont=\toks20
-\MPscratchCnt=\count109
-\MPscratchDim=\dimen122
-\MPnumerator=\count110
-\makeMPintoPDFobject=\count111
-\everyMPtoPDFconversion=\toks21
+\scratchcounter=\count107
+\scratchdimen=\dimen124
+\scratchbox=\box32
+\nofMPsegments=\count108
+\nofMParguments=\count109
+\everyMPshowfont=\toks22
+\MPscratchCnt=\count110
+\MPscratchDim=\dimen125
+\MPnumerator=\count111
+\makeMPintoPDFobject=\count112
+\everyMPtoPDFconversion=\toks23
 ) (/usr/share/texlive/texmf-dist/tex/latex/oberdiek/epstopdf-base.sty
 Package: epstopdf-base 2016/05/15 v2.6 Base part for package epstopdf
 
@@ -346,41 +367,340 @@ Package: lscape 2000/10/22 v3.01 Landscape Pages (DPC)
 Package pdflscape Info: Auto-detected driver: pdftex on input line 81.
 )
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <12> on input line 9.
+(Font)              <12> on input line 10.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <8> on input line 9.
+(Font)              <8> on input line 10.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <6> on input line 9.
+(Font)              <6> on input line 10.
+<../pictures/2018-11-14_104721.jpg, id=20, 2039.62pt x 2039.62pt>
+File: ../pictures/2018-11-14_104721.jpg Graphic file (type jpg)
+<use ../pictures/2018-11-14_104721.jpg>
+Package pdftex.def Info: ../pictures/2018-11-14_104721.jpg  used on input line 
+13.
+(pdftex.def)             Requested size: 352.31625pt x 352.30167pt.
  [1
 
-{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}]
+{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map} <../pictures/2018-11-14_104
+721.jpg>]
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <7> on input line 25.
+(Font)              <7> on input line 31.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <5> on input line 25.
- [2
+(Font)              <5> on input line 31.
+
+[1
 
 ]
-<../data/2018-11-13/setpoint.png, id=37, 462.528pt x 346.896pt>
+<../data/2018-11-13/setpoint.png, id=40, 462.528pt x 346.896pt>
 File: ../data/2018-11-13/setpoint.png Graphic file (type png)
 <use ../data/2018-11-13/setpoint.png>
-Package pdftex.def Info: ../data/2018-11-13/setpoint.png  used on input line 37
+Package pdftex.def Info: ../data/2018-11-13/setpoint.png  used on input line 48
 .
 (pdftex.def)             Requested size: 469.75502pt x 352.33655pt.
- [3 <../data/2018-11-13/setpoint.png>] [4
+ [2 <../data/2018-11-13/setpoint.png>]
+<../data/2018-11-14/load.png, id=47, 462.528pt x 346.896pt>
+File: ../data/2018-11-14/load.png Graphic file (type png)
+<use ../data/2018-11-14/load.png>
+Package pdftex.def Info: ../data/2018-11-14/load.png  used on input line 63.
+(pdftex.def)             Requested size: 469.75502pt x 352.33655pt.
+ [3 <../data/2018-11-14/load.png>]
+[4
 
 
+
+
+
+] [5
 
 ]
-LaTeX Font Info:    Try loading font information for OMS+cmss on input line 56.
+Overfull \hbox (2.6029pt too wide) in paragraph at lines 130--130
+ []||
+ []
 
-LaTeX Font Info:    No file OMScmss.fd. on input line 56.
+
+Overfull \hbox (7.60292pt too wide) in paragraph at lines 131--131
+ []|\OT1/cmss/m/n/10 1|
+ []
 
 
-LaTeX Font Warning: Font shape `OMS/cmss/m/n' undefined
-(Font)              using `OMS/cmsy/m/n' instead
-(Font)              for symbol `textbullet' on input line 56.
+Overfull \hbox (7.60292pt too wide) in paragraph at lines 132--132
+ []|\OT1/cmss/m/n/10 1|
+ []
 
-[5
+
+Overfull \hbox (7.60292pt too wide) in paragraph at lines 133--133
+ []|\OT1/cmss/m/n/10 1|
+ []
+
+
+Overfull \hbox (7.60292pt too wide) in paragraph at lines 134--134
+ []|\OT1/cmss/m/n/10 1|
+ []
+
+
+Overfull \hbox (7.60292pt too wide) in paragraph at lines 135--135
+ []|\OT1/cmss/m/n/10 1|
+ []
+
+
+Overfull \hbox (7.60292pt too wide) in paragraph at lines 136--136
+ []|\OT1/cmss/m/n/10 1|
+ []
+
+
+Overfull \hbox (7.60292pt too wide) in paragraph at lines 137--137
+ []|\OT1/cmss/m/n/10 2|
+ []
+
+
+Overfull \hbox (7.60292pt too wide) in paragraph at lines 138--138
+ []|\OT1/cmss/m/n/10 2|
+ []
+
+
+Overfull \hbox (7.60292pt too wide) in paragraph at lines 139--139
+ []|\OT1/cmss/m/n/10 1|
+ []
+
+
+Overfull \hbox (7.60292pt too wide) in paragraph at lines 140--140
+ []|\OT1/cmss/m/n/10 1|
+ []
+
+
+Overfull \hbox (7.60292pt too wide) in paragraph at lines 141--141
+ []|\OT1/cmss/m/n/10 1|
+ []
+
+
+Overfull \hbox (7.60292pt too wide) in paragraph at lines 142--142
+ []|\OT1/cmss/m/n/10 1|
+ []
+
+
+Overfull \hbox (7.60292pt too wide) in paragraph at lines 143--143
+ []|\OT1/cmss/m/n/10 1|
+ []
+
+
+Overfull \hbox (7.60292pt too wide) in paragraph at lines 144--144
+ []|\OT1/cmss/m/n/10 2|
+ []
+
+
+Overfull \hbox (7.60292pt too wide) in paragraph at lines 145--145
+ []|\OT1/cmss/m/n/10 4|
+ []
+
+
+Overfull \hbox (7.60292pt too wide) in paragraph at lines 146--146
+ []|\OT1/cmss/m/n/10 4|
+ []
+
+
+Overfull \hbox (7.60292pt too wide) in paragraph at lines 147--147
+ []|\OT1/cmss/m/n/10 1|
+ []
+
+
+Overfull \hbox (7.60292pt too wide) in paragraph at lines 148--148
+ []|\OT1/cmss/m/n/10 1|
+ []
+
+
+Overfull \hbox (7.60292pt too wide) in paragraph at lines 149--149
+ []|\OT1/cmss/m/n/10 1|
+ []
+
+
+Overfull \hbox (7.60292pt too wide) in paragraph at lines 150--150
+ []|\OT1/cmss/m/n/10 3|
+ []
+
+
+Overfull \hbox (7.60292pt too wide) in paragraph at lines 151--151
+ []|\OT1/cmss/m/n/10 5|
+ []
+
+
+Overfull \hbox (7.60292pt too wide) in paragraph at lines 152--152
+ []|\OT1/cmss/m/n/10 1|
+ []
+
+
+Overfull \hbox (7.60292pt too wide) in paragraph at lines 153--153
+ []|\OT1/cmss/m/n/10 1|
+ []
+
+
+Overfull \hbox (7.60292pt too wide) in paragraph at lines 154--154
+ []|\OT1/cmss/m/n/10 1|
+ []
+
+
+Overfull \hbox (7.60292pt too wide) in paragraph at lines 155--155
+ []|\OT1/cmss/m/n/10 3|
+ []
+
+<../PCB/schematic.pdf, id=65, 614.295pt x 794.97pt>
+File: ../PCB/schematic.pdf Graphic file (type pdf)
+<use ../PCB/schematic.pdf>
+Package pdftex.def Info: ../PCB/schematic.pdf  used on input line 158.
+(pdftex.def)             Requested size: 614.29349pt x 794.96806pt.
+File: ../PCB/schematic.pdf Graphic file (type pdf)
+<use ../PCB/schematic.pdf>
+Package pdftex.def Info: ../PCB/schematic.pdf  used on input line 158.
+(pdftex.def)             Requested size: 614.29349pt x 794.96806pt.
+<../PCB/schematic.pdf, id=68, page=1, 614.295pt x 794.97pt>
+File: ../PCB/schematic.pdf Graphic file (type pdf)
+<use ../PCB/schematic.pdf, page 1>
+Package pdftex.def Info: ../PCB/schematic.pdf , page1 used on input line 158.
+(pdftex.def)             Requested size: 614.29349pt x 794.96806pt.
+File: ../PCB/schematic.pdf Graphic file (type pdf)
+<use ../PCB/schematic.pdf, page 1>
+Package pdftex.def Info: ../PCB/schematic.pdf , page1 used on input line 158.
+(pdftex.def)             Requested size: 614.29349pt x 794.96806pt.
+[6
 
 ]
+File: ../PCB/schematic.pdf Graphic file (type pdf)
+<use ../PCB/schematic.pdf, page 1>
+Package pdftex.def Info: ../PCB/schematic.pdf , page1 used on input line 158.
+(pdftex.def)             Requested size: 614.29349pt x 794.96806pt.
+File: ../PCB/schematic.pdf Graphic file (type pdf)
+<use ../PCB/schematic.pdf, page 1>
+Package pdftex.def Info: ../PCB/schematic.pdf , page1 used on input line 158.
+(pdftex.def)             Requested size: 614.29349pt x 794.96806pt.
+File: ../PCB/schematic.pdf Graphic file (type pdf)
+<use ../PCB/schematic.pdf, page 1>
+Package pdftex.def Info: ../PCB/schematic.pdf , page1 used on input line 158.
+(pdftex.def)             Requested size: 614.29349pt x 794.96806pt.
+ [7 <../PCB/schematic.pdf>]
+<../PCB/pcb.pdf, id=80, 614.295pt x 794.97pt>
+File: ../PCB/pcb.pdf Graphic file (type pdf)
+<use ../PCB/pcb.pdf>
+Package pdftex.def Info: ../PCB/pcb.pdf  used on input line 159.
+(pdftex.def)             Requested size: 614.29349pt x 794.96806pt.
+File: ../PCB/pcb.pdf Graphic file (type pdf)
+<use ../PCB/pcb.pdf>
+Package pdftex.def Info: ../PCB/pcb.pdf  used on input line 159.
+(pdftex.def)             Requested size: 614.29349pt x 794.96806pt.
+<../PCB/pcb.pdf, id=83, page=1, 614.295pt x 794.97pt>
+File: ../PCB/pcb.pdf Graphic file (type pdf)
+<use ../PCB/pcb.pdf, page 1>
+Package pdftex.def Info: ../PCB/pcb.pdf , page1 used on input line 159.
+(pdftex.def)             Requested size: 614.29349pt x 794.96806pt.
+File: ../PCB/pcb.pdf Graphic file (type pdf)
+<use ../PCB/pcb.pdf, page 1>
+Package pdftex.def Info: ../PCB/pcb.pdf , page1 used on input line 159.
+(pdftex.def)             Requested size: 614.29349pt x 794.96806pt.
+File: ../PCB/pcb.pdf Graphic file (type pdf)
+<use ../PCB/pcb.pdf, page 1>
+Package pdftex.def Info: ../PCB/pcb.pdf , page1 used on input line 159.
+(pdftex.def)             Requested size: 614.29349pt x 794.96806pt.
+File: ../PCB/pcb.pdf Graphic file (type pdf)
+<use ../PCB/pcb.pdf, page 1>
+Package pdftex.def Info: ../PCB/pcb.pdf , page1 used on input line 159.
+(pdftex.def)             Requested size: 614.29349pt x 794.96806pt.
+File: ../PCB/pcb.pdf Graphic file (type pdf)
+<use ../PCB/pcb.pdf, page 1>
+Package pdftex.def Info: ../PCB/pcb.pdf , page1 used on input line 159.
+(pdftex.def)             Requested size: 614.29349pt x 794.96806pt.
+ [8 <../PCB/pcb.pdf>]
+<../PCB/front.pdf, id=3324, 614.295pt x 794.97pt>
+File: ../PCB/front.pdf Graphic file (type pdf)
+<use ../PCB/front.pdf>
+Package pdftex.def Info: ../PCB/front.pdf  used on input line 160.
+(pdftex.def)             Requested size: 614.29349pt x 794.96806pt.
+File: ../PCB/front.pdf Graphic file (type pdf)
+<use ../PCB/front.pdf>
+Package pdftex.def Info: ../PCB/front.pdf  used on input line 160.
+(pdftex.def)             Requested size: 614.29349pt x 794.96806pt.
+<../PCB/front.pdf, id=3327, page=1, 614.295pt x 794.97pt>
+File: ../PCB/front.pdf Graphic file (type pdf)
+<use ../PCB/front.pdf, page 1>
+Package pdftex.def Info: ../PCB/front.pdf , page1 used on input line 160.
+(pdftex.def)             Requested size: 614.29349pt x 794.96806pt.
+File: ../PCB/front.pdf Graphic file (type pdf)
+<use ../PCB/front.pdf, page 1>
+Package pdftex.def Info: ../PCB/front.pdf , page1 used on input line 160.
+(pdftex.def)             Requested size: 614.29349pt x 794.96806pt.
+File: ../PCB/front.pdf Graphic file (type pdf)
+<use ../PCB/front.pdf, page 1>
+Package pdftex.def Info: ../PCB/front.pdf , page1 used on input line 160.
+(pdftex.def)             Requested size: 614.29349pt x 794.96806pt.
+File: ../PCB/front.pdf Graphic file (type pdf)
+<use ../PCB/front.pdf, page 1>
+Package pdftex.def Info: ../PCB/front.pdf , page1 used on input line 160.
+(pdftex.def)             Requested size: 614.29349pt x 794.96806pt.
+File: ../PCB/front.pdf Graphic file (type pdf)
+<use ../PCB/front.pdf, page 1>
+Package pdftex.def Info: ../PCB/front.pdf , page1 used on input line 160.
+(pdftex.def)             Requested size: 614.29349pt x 794.96806pt.
+ [9 <../PCB/front.pdf>]
+<../PCB/back.pdf, id=3334, 614.295pt x 794.97pt>
+File: ../PCB/back.pdf Graphic file (type pdf)
+<use ../PCB/back.pdf>
+Package pdftex.def Info: ../PCB/back.pdf  used on input line 161.
+(pdftex.def)             Requested size: 614.29349pt x 794.96806pt.
+File: ../PCB/back.pdf Graphic file (type pdf)
+<use ../PCB/back.pdf>
+Package pdftex.def Info: ../PCB/back.pdf  used on input line 161.
+(pdftex.def)             Requested size: 614.29349pt x 794.96806pt.
+<../PCB/back.pdf, id=3337, page=1, 614.295pt x 794.97pt>
+File: ../PCB/back.pdf Graphic file (type pdf)
+<use ../PCB/back.pdf, page 1>
+Package pdftex.def Info: ../PCB/back.pdf , page1 used on input line 161.
+(pdftex.def)             Requested size: 614.29349pt x 794.96806pt.
+File: ../PCB/back.pdf Graphic file (type pdf)
+<use ../PCB/back.pdf, page 1>
+Package pdftex.def Info: ../PCB/back.pdf , page1 used on input line 161.
+(pdftex.def)             Requested size: 614.29349pt x 794.96806pt.
+File: ../PCB/back.pdf Graphic file (type pdf)
+<use ../PCB/back.pdf, page 1>
+Package pdftex.def Info: ../PCB/back.pdf , page1 used on input line 161.
+(pdftex.def)             Requested size: 614.29349pt x 794.96806pt.
+File: ../PCB/back.pdf Graphic file (type pdf)
+<use ../PCB/back.pdf, page 1>
+Package pdftex.def Info: ../PCB/back.pdf , page1 used on input line 161.
+(pdftex.def)             Requested size: 614.29349pt x 794.96806pt.
+File: ../PCB/back.pdf Graphic file (type pdf)
+<use ../PCB/back.pdf, page 1>
+Package pdftex.def Info: ../PCB/back.pdf , page1 used on input line 161.
+(pdftex.def)             Requested size: 614.29349pt x 794.96806pt.
+
+[10 <../PCB/back.pdf>]
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 163.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 163.
+ (./manual.aux)
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 163.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 163.
+Package rerunfilecheck Info: File `manual.out' has not changed.
+(rerunfilecheck)             Checksum: 819121A76836632F21F921624F0A6D60;207.
+
+
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 163.
+ ) 
+Here is how much of TeX's memory you used:
+ 7087 strings out of 492638
+ 105397 string characters out of 6131709
+ 222344 words of memory out of 5000000
+ 10877 multiletter control sequences out of 15000+600000
+ 8189 words of font info for 29 fonts, out of 8000000 for 9000
+ 1141 hyphenation exceptions out of 8191
+ 44i,20n,48p,589b,460s stack positions out of 5000i,500n,10000p,200000b,80000s
+</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></us
+r/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share
+/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmss10.pfb></usr/share/texli
+ve/texmf-dist/fonts/type1/public/amsfonts/cm/cmss12.pfb></usr/share/texlive/tex
+mf-dist/fonts/type1/public/amsfonts/cm/cmss17.pfb></usr/share/texlive/texmf-dis
+t/fonts/type1/public/amsfonts/cm/cmssbx10.pfb></usr/share/texlive/texmf-dist/fo
+nts/type1/public/amsfonts/cm/cmsy10.pfb>
+Output written on manual.pdf (11 pages, 1205426 bytes).
+PDF statistics:
+ 3375 PDF objects out of 3580 (max. 8388607)
+ 1938 compressed objects within 20 object streams
+ 18 named destinations out of 1000 (max. 500000)
+ 128 words of extra memory for PDF output out of 10000 (max. 10000000)
+

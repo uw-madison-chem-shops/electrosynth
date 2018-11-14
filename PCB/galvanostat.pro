@@ -1,4 +1,4 @@
-update=Tue 13 Nov 2018 06:48:03 PM CST
+update=Wed 14 Nov 2018 08:48:38 AM CST
 version=1
 last_client=kicad
 [general]
@@ -33,7 +33,7 @@ BoardOutlineThickness=0.15
 ModuleOutlineThickness=0.15
 [schematic_editor]
 version=1
-PageLayoutDescrFile=/home/blaise/shops/Elec/Projects/2018-11-01 Oliver Williams - simple low-current galvanostat/PCB/blaise.kicad_wks
+PageLayoutDescrFile=blaise.kicad_wks
 PlotDirectoryName=
 SubpartIdSeparator=0
 SubpartFirstId=65

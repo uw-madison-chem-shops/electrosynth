@@ -2,11 +2,11 @@ EESchema Schematic File Version 4
 LIBS:galvanostat-cache
 EELAYER 26 0
 EELAYER END
-$Descr A4 11693 8268
+$Descr USLetter 11000 8500
 encoding utf-8
 Sheet 1 1
 Title "Dual Galvanostat"
-Date "2018-11-09"
+Date "2018-11-14"
 Rev "B"
 Comp ""
 Comment1 ""
@@ -346,10 +346,6 @@ Wire Wire Line
 Connection ~ 4450 2250
 Wire Wire Line
 	4450 1950 4850 1950
-Wire Wire Line
-	4850 1950 4850 2150
-Wire Wire Line
-	4850 2150 5550 2150
 $Comp
 L power:+15V #PWR0110
 U 1 1 5BE8B06B
@@ -588,7 +584,6 @@ F 3 "~" H 5050 1900 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	4850 1900 4850 1950
-Connection ~ 4850 1950
 $Comp
 L Connector:TestPoint TP3
 U 1 1 5BEBBCC0
@@ -602,9 +597,6 @@ F 3 "~" H 4900 2500 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	4700 2500 4700 2550
-Connection ~ 4700 2550
-Wire Wire Line
-	4700 2550 5550 2550
 $Comp
 L Connector:TestPoint TP2
 U 1 1 5BEBD293
@@ -697,15 +689,27 @@ $EndComp
 Wire Wire Line
 	5100 4000 5600 4000
 Connection ~ 5100 4000
+Connection ~ 6450 2250
+Wire Wire Line
+	6450 2250 6450 2350
+Wire Wire Line
+	6450 2650 6450 2550
+Wire Wire Line
+	6450 2550 6750 2550
 Wire Wire Line
 	6450 2350 6750 2350
 Wire Wire Line
-	6450 2350 6450 2650
+	4850 1950 5350 1950
 Wire Wire Line
-	6450 2250 6600 2250
+	5350 1950 5350 2550
 Wire Wire Line
-	6600 2250 6600 2550
+	5350 2550 5550 2550
+Connection ~ 4850 1950
 Wire Wire Line
-	6600 2550 6750 2550
-Connection ~ 6450 2250
+	4700 2550 5200 2550
+Wire Wire Line
+	5200 2550 5200 2150
+Wire Wire Line
+	5200 2150 5550 2150
+Connection ~ 4700 2550
 $EndSCHEMATC

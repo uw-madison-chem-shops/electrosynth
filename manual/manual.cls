@@ -8,6 +8,7 @@
 \setlength\parindent{0pt}
 \setlength{\parskip}{1em}
 \renewcommand{\familydefault}{\sfdefault}
+\RequirePackage{setspace}
 
 % force all floats to center (see https://tex.stackexchange.com/a/53383)
 \makeatletter
@@ -25,3 +26,22 @@ anchorcolor=black]{hyperref}
 % images
 \RequirePackage{graphicx}
 \RequirePackage{pdfpages}
+
+
+\usepackage{array}
+\newcolumntype{P}[1]{>{\raggedleft\arraybackslash}p{#1}}
+
+\RequirePackage[shortlabels]{enumitem}
+\setlist[itemize, 1]{nosep}
+\setlist[itemize, 2]{nosep, topsep=-5ex}
+\setlist[itemize, 3]{nosep, topsep=-5ex}
+\setlist[itemize, 4]{nosep, topsep=-5ex}
+\newenvironment{ditemize}
+  {
+  \begin{itemize}
+  \renewcommand{\labelitemi}{$\rightarrow$}
+  \singlespacing
+  }
+  {
+  \end{itemize}
+  }
