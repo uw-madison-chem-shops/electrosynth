@@ -712,4 +712,6 @@ Wire Wire Line
 Wire Wire Line
 	5200 2150 5550 2150
 Connection ~ 4700 2550
+Entry Wire Line
+	2700 3950 2800 4050
 $EndSCHEMATC
