@@ -327,7 +327,7 @@ $DIMALTTD
   9
 $DIMTXSTY
   7
-STANDARD
+standard
   9
 $DIMAUNIT
  70
@@ -335,7 +335,7 @@ $DIMAUNIT
   9
 $DIMADEC
  70
-    0
+    2
   9
 $DIMALTRND
  40
@@ -775,9 +775,9 @@ $MAXACTVP
   9
 $PINSBASE
  10
-0
+5.5
  20
-0
+4.25
  30
 0
   9
@@ -805,6 +805,16 @@ $GRIDMODE
  70
     1
   9
+$SNAPSTYLE
+ 70
+    0
+  9
+$GRIDUNIT
+ 10
+0
+ 20
+0
+  9
 $PLIMMIN
  10
 0
@@ -813,9 +823,9 @@ $PLIMMIN
   9
 $PLIMMAX
  10
-297
+11
  20
-210
+8.5
   9
 $UNITMODE
  70
@@ -875,7 +885,7 @@ $LWDISPLAY
   9
 $INSUNITS
  70
-    0
+    1
   9
 $HYPERLINKBASE
   1
@@ -903,7 +913,7 @@ $EXTNAMES
   9
 $PSVPSCALE
  40
-0
+1
   9
 $OLESTARTUP
 290
@@ -1111,9 +1121,9 @@ AcDbViewportTableRecord
  21
 1
  12
-1.412081339712919
+1.034246575342466
  22
-0.7679425837320574
+1.332191780821918
  13
 0
  23
@@ -1139,9 +1149,9 @@ AcDbViewportTableRecord
  37
 0
  40
-3.071770334928229
+5.328767123287672
  41
-1.838785046728972
+0.7763496143958869
  42
 50
  43
@@ -2385,7 +2395,7 @@ Standard
  70
     0
  40
-1
+2.5
  41
 2.5
  42
@@ -2437,7 +2447,7 @@ Standard
  77
     0
  78
-    1
+    8
  79
     0
 170

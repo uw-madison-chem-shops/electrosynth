@@ -1,13 +1,13 @@
 EESchema Schematic File Version 4
 LIBS:galvanostat-cache
-EELAYER 26 0
+EELAYER 29 0
 EELAYER END
 $Descr USLetter 11000 8500
 encoding utf-8
 Sheet 1 1
-Title "Dual Galvanostat"
-Date "2018-11-14"
-Rev "B"
+Title "Galvanostat"
+Date "2019-06-11"
+Rev "C"
 Comp ""
 Comment1 ""
 Comment2 ""
@@ -714,4 +714,143 @@ Wire Wire Line
 Connection ~ 4700 2550
 Entry Wire Line
 	2700 3950 2800 4050
+$Comp
+L Connector_Generic:Conn_01x02 J3
+U 1 1 5D00B8A6
+P 9050 5150
+F 0 "J3" V 9000 5350 50  0000 R CNN
+F 1 "Conn_01x02" V 8900 5700 50  0000 R CNN
+F 2 "Connector_Molex:Molex_KK-254_AE-6410-02A_1x02_P2.54mm_Vertical" H 9050 5150 50  0001 C CNN
+F 3 "" H 9050 5150 50  0001 C CNN
+	1    9050 5150
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+15V #PWR03
+U 1 1 5D00B8AC
+P 8400 4850
+F 0 "#PWR03" H 8400 4700 50  0001 C CNN
+F 1 "+15V" H 8415 5023 50  0000 C CNN
+F 2 "" H 8400 4850 50  0001 C CNN
+F 3 "" H 8400 4850 50  0001 C CNN
+	1    8400 4850
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR01
+U 1 1 5D00B8B2
+P 7900 4250
+F 0 "#PWR01" H 7900 4000 50  0001 C CNN
+F 1 "GND" H 7905 4077 50  0000 C CNN
+F 2 "" H 7900 4250 50  0001 C CNN
+F 3 "" H 7900 4250 50  0001 C CNN
+	1    7900 4250
+	-1   0    0    1   
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x02 J4
+U 1 1 5D00B8B8
+P 9050 5550
+F 0 "J4" V 9016 5362 50  0000 R CNN
+F 1 "Conn_01x02" V 8925 5362 50  0000 R CNN
+F 2 "Connector_Molex:Molex_KK-254_AE-6410-02A_1x02_P2.54mm_Vertical" H 9050 5550 50  0001 C CNN
+F 3 "" H 9050 5550 50  0001 C CNN
+	1    9050 5550
+	1    0    0    -1  
+$EndComp
+$Comp
+L LM358:LM358 U7
+U 1 1 5D00B8BE
+P 8000 5350
+F 0 "U7" H 8150 5900 60  0000 C CNN
+F 1 "LM358" H 8150 5800 60  0000 C CNN
+F 2 "Package_DIP:DIP-8_W7.62mm_Socket_LongPads" H 8150 4900 60  0001 C CNN
+F 3 "" H 8000 5350 60  0000 C CNN
+	1    8000 5350
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR04
+U 1 1 5D00B8C4
+P 8400 5850
+F 0 "#PWR04" H 8400 5600 50  0001 C CNN
+F 1 "GND" H 8405 5677 50  0000 C CNN
+F 2 "" H 8400 5850 50  0001 C CNN
+F 3 "" H 8400 5850 50  0001 C CNN
+	1    8400 5850
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8000 5250 7900 5250
+Wire Wire Line
+	8600 5550 8850 5550
+Wire Wire Line
+	8850 5650 8650 5650
+Wire Wire Line
+	8650 5650 8650 6200
+Wire Wire Line
+	8650 6200 7900 6200
+Wire Wire Line
+	7900 6200 7900 5650
+Wire Wire Line
+	7900 5650 8000 5650
+Wire Wire Line
+	8850 5250 8850 5400
+Wire Wire Line
+	8850 5400 9150 5400
+Wire Wire Line
+	8600 5150 8850 5150
+$Comp
+L power:GND #PWR02
+U 1 1 5D00B8D4
+P 7900 6500
+F 0 "#PWR02" H 7900 6250 50  0001 C CNN
+F 1 "GND" H 7905 6327 50  0000 C CNN
+F 2 "" H 7900 6500 50  0001 C CNN
+F 3 "" H 7900 6500 50  0001 C CNN
+	1    7900 6500
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7700 5050 8000 5050
+Wire Wire Line
+	7700 5450 8000 5450
+$Comp
+L Device:R_Variable_US RV6
+U 1 1 5D00B8DC
+P 7900 6350
+F 0 "RV6" H 8028 6396 50  0000 L CNN
+F 1 "2kΩ" H 8028 6305 50  0000 L CNN
+F 2 "Potentiometer_THT:Potentiometer_Bourns_3299W_Vertical" V 7830 6350 50  0001 C CNN
+F 3 "" H 7900 6350 50  0001 C CNN
+	1    7900 6350
+	1    0    0    -1  
+$EndComp
+Connection ~ 7900 6200
+$Comp
+L Device:R_Variable_US RV5
+U 1 1 5D00B8E3
+P 7900 4400
+F 0 "RV5" H 8028 4446 50  0000 L CNN
+F 1 "2kΩ" H 8028 4355 50  0000 L CNN
+F 2 "Potentiometer_THT:Potentiometer_Bourns_3299W_Vertical" V 7830 4400 50  0001 C CNN
+F 3 "" H 7900 4400 50  0001 C CNN
+	1    7900 4400
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9150 4550 7900 4550
+Wire Wire Line
+	9150 4550 9150 5400
+Wire Wire Line
+	7900 4550 7900 5250
+Connection ~ 7900 4550
+Wire Wire Line
+	7700 5450 7700 5050
+Connection ~ 7700 2550
+Wire Wire Line
+	7700 2550 7700 2450
+Connection ~ 7700 5050
+Wire Wire Line
+	7700 5050 7700 2550
 $EndSCHEMATC
