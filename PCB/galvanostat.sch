@@ -712,8 +712,6 @@ Wire Wire Line
 Wire Wire Line
 	5200 2150 5550 2150
 Connection ~ 4700 2550
-Entry Wire Line
-	2700 3950 2800 4050
 $Comp
 L Connector_Generic:Conn_01x02 J3
 U 1 1 5D00B8A6
@@ -848,8 +846,6 @@ Connection ~ 7900 4550
 Wire Wire Line
 	7700 5450 7700 5050
 Connection ~ 7700 2550
-Wire Wire Line
-	7700 2550 7700 2450
 Connection ~ 7700 5050
 Wire Wire Line
 	7700 5050 7700 2550
