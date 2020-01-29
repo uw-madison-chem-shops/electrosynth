@@ -1,5 +1,5 @@
 (sym_lib_table
   (lib (name INA105)(type Legacy)(uri ${KIPRJMOD}/lib_sch/INA105.lib)(options "")(descr ""))
   (lib (name LM358)(type Legacy)(uri ${KIPRJMOD}/lib_sch/LM358.lib)(options "")(descr ""))
-  (lib (name LM6132)(type Legacy)(uri "/home/blaise/datasheets/Texas Instruments/LM6132/LM6132.lib")(options "")(descr ""))
+  (lib (name IRF630)(type Legacy)(uri ${KIPRJMOD}/IRF630.lib)(options "")(descr ""))
 )

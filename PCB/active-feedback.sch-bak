@@ -1,0 +1,393 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr USLetter 11000 8500
+encoding utf-8
+Sheet 5 9
+Title "galvanosynth"
+Date "2019-12-09"
+Rev "4.0.0"
+Comp "University of Wisconsin-Madison"
+Comment1 "Instrument Shop"
+Comment2 "Department of Chemistry"
+Comment3 "Blaise Thompson"
+Comment4 "bthompson@chem.wisc.edu"
+$EndDescr
+Text HLabel 2500 3500 0    50   Input ~ 0
+CONTROL
+Text HLabel 6850 2900 2    50   Output ~ 0
+ERROR
+Text HLabel 6850 4300 2    50   Output ~ 0
+SUPPLY
+Text HLabel 6850 4400 2    50   Input ~ 0
+RETURN
+$Comp
+L power:+15V #PWR?
+U 1 1 5E5D6B6F
+P 5400 3100
+AR Path="/5E5D6B6F" Ref="#PWR?"  Part="1" 
+AR Path="/5E39B760/5E5D6B6F" Ref="#PWR0111"  Part="1" 
+AR Path="/5E3EAB60/5E5D6B6F" Ref="#PWR0118"  Part="1" 
+AR Path="/5E4039E6/5E5D6B6F" Ref="#PWR0124"  Part="1" 
+AR Path="/5E4039EC/5E5D6B6F" Ref="#PWR0130"  Part="1" 
+AR Path="/5E4039F2/5E5D6B6F" Ref="#PWR0136"  Part="1" 
+AR Path="/5E4039E0/5E5D6B6F" Ref="#PWR0142"  Part="1" 
+AR Path="/5E3EC44B/5E5D6B6F" Ref="#PWR0148"  Part="1" 
+AR Path="/5E3ED540/5E5D6B6F" Ref="#PWR0154"  Part="1" 
+F 0 "#PWR0136" H 5400 2950 50  0001 C CNN
+F 1 "+15V" H 5415 3273 50  0000 C CNN
+F 2 "" H 5400 3100 50  0001 C CNN
+F 3 "" H 5400 3100 50  0001 C CNN
+	1    5400 3100
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5E5D6B75
+P 5400 4100
+AR Path="/5E5D6B75" Ref="#PWR?"  Part="1" 
+AR Path="/5E39B760/5E5D6B75" Ref="#PWR0112"  Part="1" 
+AR Path="/5E3EAB60/5E5D6B75" Ref="#PWR0119"  Part="1" 
+AR Path="/5E4039E6/5E5D6B75" Ref="#PWR0125"  Part="1" 
+AR Path="/5E4039EC/5E5D6B75" Ref="#PWR0131"  Part="1" 
+AR Path="/5E4039F2/5E5D6B75" Ref="#PWR0137"  Part="1" 
+AR Path="/5E4039E0/5E5D6B75" Ref="#PWR0143"  Part="1" 
+AR Path="/5E3EC44B/5E5D6B75" Ref="#PWR0149"  Part="1" 
+AR Path="/5E3ED540/5E5D6B75" Ref="#PWR0155"  Part="1" 
+F 0 "#PWR0137" H 5400 3850 50  0001 C CNN
+F 1 "GND" H 5405 3927 50  0000 C CNN
+F 2 "" H 5400 4100 50  0001 C CNN
+F 3 "" H 5400 4100 50  0001 C CNN
+	1    5400 4100
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5E5D6B82
+P 5100 4750
+AR Path="/5E5D6B82" Ref="#PWR?"  Part="1" 
+AR Path="/5E39B760/5E5D6B82" Ref="#PWR0113"  Part="1" 
+AR Path="/5E3EAB60/5E5D6B82" Ref="#PWR0120"  Part="1" 
+AR Path="/5E4039E6/5E5D6B82" Ref="#PWR0126"  Part="1" 
+AR Path="/5E4039EC/5E5D6B82" Ref="#PWR0132"  Part="1" 
+AR Path="/5E4039F2/5E5D6B82" Ref="#PWR0138"  Part="1" 
+AR Path="/5E4039E0/5E5D6B82" Ref="#PWR0144"  Part="1" 
+AR Path="/5E3EC44B/5E5D6B82" Ref="#PWR0150"  Part="1" 
+AR Path="/5E3ED540/5E5D6B82" Ref="#PWR0156"  Part="1" 
+F 0 "#PWR0138" H 5100 4500 50  0001 C CNN
+F 1 "GND" H 5105 4577 50  0000 C CNN
+F 2 "" H 5100 4750 50  0001 C CNN
+F 3 "" H 5100 4750 50  0001 C CNN
+	1    5100 4750
+	1    0    0    -1  
+$EndComp
+$Comp
+L IRF630:IRF630 QD?
+U 1 1 5E5D6B88
+P 6800 4100
+AR Path="/5E5D6B88" Ref="QD?"  Part="1" 
+AR Path="/5E39B760/5E5D6B88" Ref="QD1"  Part="1" 
+AR Path="/5E3EAB60/5E5D6B88" Ref="QD2"  Part="1" 
+AR Path="/5E4039E6/5E5D6B88" Ref="QD6"  Part="1" 
+AR Path="/5E4039EC/5E5D6B88" Ref="QD7"  Part="1" 
+AR Path="/5E4039F2/5E5D6B88" Ref="QD8"  Part="1" 
+AR Path="/5E4039E0/5E5D6B88" Ref="QD5"  Part="1" 
+AR Path="/5E3EC44B/5E5D6B88" Ref="QD3"  Part="1" 
+AR Path="/5E3ED540/5E5D6B88" Ref="QD4"  Part="1" 
+F 0 "QD8" H 6906 4146 50  0000 L CNN
+F 1 "IRF630" H 6906 4055 50  0000 L CNN
+F 2 "Package_TO_SOT_THT:TO-220-3_Vertical" H 6550 3950 50  0001 C CNN
+F 3 "" H 6550 3950 50  0001 C CNN
+	1    6800 4100
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+15V #PWR?
+U 1 1 5E5D6B8E
+P 6800 3900
+AR Path="/5E5D6B8E" Ref="#PWR?"  Part="1" 
+AR Path="/5E39B760/5E5D6B8E" Ref="#PWR0114"  Part="1" 
+AR Path="/5E3EAB60/5E5D6B8E" Ref="#PWR0121"  Part="1" 
+AR Path="/5E4039E6/5E5D6B8E" Ref="#PWR0127"  Part="1" 
+AR Path="/5E4039EC/5E5D6B8E" Ref="#PWR0133"  Part="1" 
+AR Path="/5E4039F2/5E5D6B8E" Ref="#PWR0139"  Part="1" 
+AR Path="/5E4039E0/5E5D6B8E" Ref="#PWR0145"  Part="1" 
+AR Path="/5E3EC44B/5E5D6B8E" Ref="#PWR0151"  Part="1" 
+AR Path="/5E3ED540/5E5D6B8E" Ref="#PWR0157"  Part="1" 
+F 0 "#PWR0139" H 6800 3750 50  0001 C CNN
+F 1 "+15V" H 6815 4073 50  0000 C CNN
+F 2 "" H 6800 3900 50  0001 C CNN
+F 3 "" H 6800 3900 50  0001 C CNN
+	1    6800 3900
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5000 3500 4950 3500
+Wire Wire Line
+	6800 4300 6850 4300
+$Comp
+L Transistor_FET:2N7000 QE?
+U 1 1 5E5D6BA0
+P 5800 3100
+AR Path="/5E5D6BA0" Ref="QE?"  Part="1" 
+AR Path="/5E39B760/5E5D6BA0" Ref="QE1"  Part="1" 
+AR Path="/5E3EAB60/5E5D6BA0" Ref="QE2"  Part="1" 
+AR Path="/5E4039E6/5E5D6BA0" Ref="QE6"  Part="1" 
+AR Path="/5E4039EC/5E5D6BA0" Ref="QE7"  Part="1" 
+AR Path="/5E4039F2/5E5D6BA0" Ref="QE8"  Part="1" 
+AR Path="/5E4039E0/5E5D6BA0" Ref="QE5"  Part="1" 
+AR Path="/5E3EC44B/5E5D6BA0" Ref="QE3"  Part="1" 
+AR Path="/5E3ED540/5E5D6BA0" Ref="QE4"  Part="1" 
+F 0 "QE8" H 6004 3054 50  0000 L CNN
+F 1 "2N7000" H 6004 3145 50  0000 L CNN
+F 2 "Package_TO_SOT_THT:TO-92_Inline" H 6000 3025 50  0001 L CIN
+F 3 "https://www.fairchildsemi.com/datasheets/2N/2N7000.pdf" H 5800 3100 50  0001 L CNN
+	1    5800 3100
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4950 2800 4950 3500
+$Comp
+L Device:R_POT_TRIM_US RV?
+U 1 1 5E5D6BAB
+P 5100 4600
+AR Path="/5E5D6BAB" Ref="RV?"  Part="1" 
+AR Path="/5E39B760/5E5D6BAB" Ref="RV1"  Part="1" 
+AR Path="/5E3EAB60/5E5D6BAB" Ref="RV2"  Part="1" 
+AR Path="/5E4039E6/5E5D6BAB" Ref="RV6"  Part="1" 
+AR Path="/5E4039EC/5E5D6BAB" Ref="RV7"  Part="1" 
+AR Path="/5E4039F2/5E5D6BAB" Ref="RV8"  Part="1" 
+AR Path="/5E4039E0/5E5D6BAB" Ref="RV5"  Part="1" 
+AR Path="/5E3EC44B/5E5D6BAB" Ref="RV3"  Part="1" 
+AR Path="/5E3ED540/5E5D6BAB" Ref="RV4"  Part="1" 
+F 0 "RV8" H 5032 4554 50  0000 R CNN
+F 1 "2k" H 5032 4645 50  0000 R CNN
+F 2 "Potentiometer_THT:Potentiometer_Bourns_3296X_Horizontal" H 5100 4600 50  0001 C CNN
+F 3 "~" H 5100 4600 50  0001 C CNN
+	1    5100 4600
+	1    0    0    1   
+$EndComp
+Wire Wire Line
+	4600 4400 5100 4400
+Wire Wire Line
+	5100 4450 5100 4400
+Connection ~ 5100 4400
+Wire Wire Line
+	5100 4400 5300 4400
+Wire Wire Line
+	5250 4600 5300 4600
+Wire Wire Line
+	5300 4600 5300 4400
+$Comp
+L power:GND #PWR?
+U 1 1 5E5D6BC0
+P 5900 3300
+AR Path="/5E5D6BC0" Ref="#PWR?"  Part="1" 
+AR Path="/5E39B760/5E5D6BC0" Ref="#PWR0115"  Part="1" 
+AR Path="/5E3EAB60/5E5D6BC0" Ref="#PWR0122"  Part="1" 
+AR Path="/5E4039E6/5E5D6BC0" Ref="#PWR0128"  Part="1" 
+AR Path="/5E4039EC/5E5D6BC0" Ref="#PWR0134"  Part="1" 
+AR Path="/5E4039F2/5E5D6BC0" Ref="#PWR0140"  Part="1" 
+AR Path="/5E4039E0/5E5D6BC0" Ref="#PWR0146"  Part="1" 
+AR Path="/5E3EC44B/5E5D6BC0" Ref="#PWR0152"  Part="1" 
+AR Path="/5E3ED540/5E5D6BC0" Ref="#PWR0158"  Part="1" 
+F 0 "#PWR0140" H 5900 3050 50  0001 C CNN
+F 1 "GND" H 5905 3127 50  0000 C CNN
+F 2 "" H 5900 3300 50  0001 C CNN
+F 3 "" H 5900 3300 50  0001 C CNN
+	1    5900 3300
+	1    0    0    -1  
+$EndComp
+Connection ~ 4950 3500
+Wire Wire Line
+	4950 2800 5000 2800
+Wire Wire Line
+	5300 2800 5600 2800
+$Comp
+L Device:R_US R?
+U 1 1 5E5D6BC6
+P 4150 3500
+AR Path="/5E5D6BC6" Ref="R?"  Part="1" 
+AR Path="/5E39B760/5E5D6BC6" Ref="R-1"  Part="1" 
+AR Path="/5E3EAB60/5E5D6BC6" Ref="R-2"  Part="1" 
+AR Path="/5E4039E6/5E5D6BC6" Ref="R-6"  Part="1" 
+AR Path="/5E4039EC/5E5D6BC6" Ref="R-7"  Part="1" 
+AR Path="/5E4039F2/5E5D6BC6" Ref="R-8"  Part="1" 
+AR Path="/5E4039E0/5E5D6BC6" Ref="R-5"  Part="1" 
+AR Path="/5E3EC44B/5E5D6BC6" Ref="R-3"  Part="1" 
+AR Path="/5E3ED540/5E5D6BC6" Ref="R-4"  Part="1" 
+F 0 "R-8" V 4250 3400 50  0000 C CNN
+F 1 "1k" V 4250 3600 50  0000 C CNN
+F 2 "Resistor_SMD:R_1206_3216Metric" V 4190 3490 50  0001 C CNN
+F 3 "~" H 4150 3500 50  0001 C CNN
+	1    4150 3500
+	0    1    -1   0   
+$EndComp
+Wire Wire Line
+	4600 3900 4600 4200
+Wire Wire Line
+	4600 3900 5000 3900
+$Comp
+L power:GND #PWR?
+U 1 1 5E66C0EF
+P 4500 3300
+AR Path="/5E66C0EF" Ref="#PWR?"  Part="1" 
+AR Path="/5E39B760/5E66C0EF" Ref="#PWR0117"  Part="1" 
+AR Path="/5E3EAB60/5E66C0EF" Ref="#PWR0123"  Part="1" 
+AR Path="/5E4039E6/5E66C0EF" Ref="#PWR0129"  Part="1" 
+AR Path="/5E4039EC/5E66C0EF" Ref="#PWR0135"  Part="1" 
+AR Path="/5E4039F2/5E66C0EF" Ref="#PWR0141"  Part="1" 
+AR Path="/5E4039E0/5E66C0EF" Ref="#PWR0147"  Part="1" 
+AR Path="/5E3EC44B/5E66C0EF" Ref="#PWR0153"  Part="1" 
+AR Path="/5E3ED540/5E66C0EF" Ref="#PWR0159"  Part="1" 
+F 0 "#PWR0141" H 4500 3050 50  0001 C CNN
+F 1 "GND" H 4600 3200 50  0000 C CNN
+F 2 "" H 4500 3300 50  0001 C CNN
+F 3 "" H 4500 3300 50  0001 C CNN
+	1    4500 3300
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4300 3500 4950 3500
+Wire Wire Line
+	4800 3000 4800 3300
+Wire Wire Line
+	4800 3300 5000 3300
+Wire Wire Line
+	2500 3500 3000 3500
+Wire Wire Line
+	3000 3500 3000 3000
+Wire Wire Line
+	3000 3000 4000 3000
+Wire Wire Line
+	3000 3500 3000 3700
+Wire Wire Line
+	3000 3700 5000 3700
+Connection ~ 3000 3500
+Wire Wire Line
+	4000 3500 3900 3500
+Wire Wire Line
+	3900 3500 3900 4200
+Wire Wire Line
+	3900 4200 4600 4200
+Connection ~ 4600 4200
+Wire Wire Line
+	4600 4200 4600 4400
+Wire Wire Line
+	6500 4100 6000 4100
+Wire Wire Line
+	6000 3800 5600 3800
+$Comp
+L LM358:LM358 U?
+U 1 1 5E5D6B7B
+P 5000 3600
+AR Path="/5E5D6B7B" Ref="U?"  Part="1" 
+AR Path="/5E39B760/5E5D6B7B" Ref="U1"  Part="1" 
+AR Path="/5E3EAB60/5E5D6B7B" Ref="U2"  Part="1" 
+AR Path="/5E4039E6/5E5D6B7B" Ref="U6"  Part="1" 
+AR Path="/5E4039EC/5E5D6B7B" Ref="U7"  Part="1" 
+AR Path="/5E4039F2/5E5D6B7B" Ref="U8"  Part="1" 
+AR Path="/5E4039E0/5E5D6B7B" Ref="U5"  Part="1" 
+AR Path="/5E3EC44B/5E5D6B7B" Ref="U3"  Part="1" 
+AR Path="/5E3ED540/5E5D6B7B" Ref="U4"  Part="1" 
+F 0 "U8" H 5150 4150 60  0000 C CNN
+F 1 "LM358" H 5150 4050 60  0000 C CNN
+F 2 "Package_DIP:DIP-8_W7.62mm_LongPads" H 5150 3150 60  0001 C CNN
+F 3 "" H 5000 3600 60  0000 C CNN
+	1    5000 3600
+	1    0    0    -1  
+$EndComp
+Connection ~ 5300 4400
+Wire Notes Line
+	7500 5000 4500 5000
+Wire Notes Line
+	4500 3600 4500 5000
+Wire Wire Line
+	6000 3800 6000 4100
+Wire Wire Line
+	5300 4400 6850 4400
+Text Notes 6400 4950 0    50   ~ 0
+CONSTANT CURRENT DRIVER\nI = V_CONTROL / RV
+Wire Notes Line
+	3800 2500 3800 3600
+Wire Notes Line
+	3800 3600 7500 3600
+$Comp
+L Device:R_US R?
+U 1 1 5E5D6BCC
+P 4150 3000
+AR Path="/5E5D6BCC" Ref="R?"  Part="1" 
+AR Path="/5E39B760/5E5D6BCC" Ref="R+1"  Part="1" 
+AR Path="/5E3EAB60/5E5D6BCC" Ref="R+2"  Part="1" 
+AR Path="/5E4039E6/5E5D6BCC" Ref="R+6"  Part="1" 
+AR Path="/5E4039EC/5E5D6BCC" Ref="R+7"  Part="1" 
+AR Path="/5E4039F2/5E5D6BCC" Ref="R+8"  Part="1" 
+AR Path="/5E4039E0/5E5D6BCC" Ref="R+5"  Part="1" 
+AR Path="/5E3EC44B/5E5D6BCC" Ref="R+3"  Part="1" 
+AR Path="/5E3ED540/5E5D6BCC" Ref="R+4"  Part="1" 
+F 0 "R+8" V 4050 3100 50  0000 C CNN
+F 1 "1k" V 4050 2900 50  0000 C CNN
+F 2 "Resistor_SMD:R_1206_3216Metric" V 4190 2990 50  0001 C CNN
+F 3 "~" H 4150 3000 50  0001 C CNN
+	1    4150 3000
+	0    -1   1    0   
+$EndComp
+Wire Notes Line
+	7500 2500 7500 5000
+Wire Notes Line
+	3800 2500 7500 2500
+Text Notes 6300 2800 0    50   ~ 0
+DIFFERENTIAL AMPLIFIER\nTRANSISTOR WILL CLOSE WHEN\nVOLTAGE DIFF.  >  20 mV 
+Wire Wire Line
+	5600 2800 5600 3100
+Wire Wire Line
+	5900 2900 6850 2900
+Connection ~ 5600 3100
+Wire Wire Line
+	5600 3100 5600 3400
+$Comp
+L Device:R_US RF?
+U 1 1 5E5D6BB9
+P 5150 2800
+AR Path="/5E5D6BB9" Ref="RF?"  Part="1" 
+AR Path="/5E39B760/5E5D6BB9" Ref="RF1"  Part="1" 
+AR Path="/5E3EAB60/5E5D6BB9" Ref="RF2"  Part="1" 
+AR Path="/5E4039E6/5E5D6BB9" Ref="RF6"  Part="1" 
+AR Path="/5E4039EC/5E5D6BB9" Ref="RF7"  Part="1" 
+AR Path="/5E4039F2/5E5D6BB9" Ref="RF8"  Part="1" 
+AR Path="/5E4039E0/5E5D6BB9" Ref="RF5"  Part="1" 
+AR Path="/5E3EC44B/5E5D6BB9" Ref="RF3"  Part="1" 
+AR Path="/5E3ED540/5E5D6BB9" Ref="RF4"  Part="1" 
+F 0 "RF8" V 5050 2900 50  0000 C CNN
+F 1 "10k" V 5050 2700 50  0000 C CNN
+F 2 "Resistor_SMD:R_1206_3216Metric" V 5190 2790 50  0001 C CNN
+F 3 "~" H 5150 2800 50  0001 C CNN
+	1    5150 2800
+	0    -1   1    0   
+$EndComp
+Wire Wire Line
+	4300 3000 4500 3000
+Wire Wire Line
+	4500 3000 4800 3000
+Connection ~ 4500 3000
+$Comp
+L Device:R_US R?
+U 1 1 5E66B3AD
+P 4500 3150
+AR Path="/5E66B3AD" Ref="R?"  Part="1" 
+AR Path="/5E39B760/5E66B3AD" Ref="RG1"  Part="1" 
+AR Path="/5E3EAB60/5E66B3AD" Ref="RG2"  Part="1" 
+AR Path="/5E4039E6/5E66B3AD" Ref="RG6"  Part="1" 
+AR Path="/5E4039EC/5E66B3AD" Ref="RG7"  Part="1" 
+AR Path="/5E4039F2/5E66B3AD" Ref="RG8"  Part="1" 
+AR Path="/5E4039E0/5E66B3AD" Ref="RG5"  Part="1" 
+AR Path="/5E3EC44B/5E66B3AD" Ref="RG3"  Part="1" 
+AR Path="/5E3ED540/5E66B3AD" Ref="RG4"  Part="1" 
+F 0 "RG8" V 4600 3150 50  0000 C CNN
+F 1 "10k" V 4386 3150 50  0000 C CNN
+F 2 "Resistor_SMD:R_1206_3216Metric" V 4540 3140 50  0001 C CNN
+F 3 "~" H 4500 3150 50  0001 C CNN
+	1    4500 3150
+	-1   0    0    -1  
+$EndComp
+$EndSCHEMATC
