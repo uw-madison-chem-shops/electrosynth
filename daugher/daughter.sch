@@ -5,8 +5,8 @@ $Descr USLetter 11000 8500
 encoding utf-8
 Sheet 1 1
 Title "galvanosynth daughter"
-Date "2020-01-03"
-Rev "1.2.0"
+Date "2020-03-03"
+Rev "1.3.1"
 Comp "University of Wisconsin-Madison"
 Comment1 "Instrument Shop"
 Comment2 "Department of Chemistry"

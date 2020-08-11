@@ -5,8 +5,8 @@ $Descr USLetter 11000 8500
 encoding utf-8
 Sheet 1 9
 Title "galvanosynth"
-Date "2020-01-03"
-Rev "4.1.0"
+Date "2020-03-03"
+Rev "4.1.1"
 Comp "University of Wisconsin-Madison"
 Comment1 "Instrument Shop"
 Comment2 "Department of Chemistry"
@@ -140,7 +140,7 @@ U 1 1 5E22F737
 P 3800 4850
 F 0 "R0" H 3868 4896 50  0000 L CNN
 F 1 "10k" H 3868 4805 50  0000 L CNN
-F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" V 3840 4840 50  0001 C CNN
+F 2 "Resistor_SMD:R_1206_3216Metric" V 3840 4840 50  0001 C CNN
 F 3 "~" H 3800 4850 50  0001 C CNN
 	1    3800 4850
 	1    0    0    -1  
@@ -814,12 +814,12 @@ Connection ~ 4250 5350
 Wire Wire Line
 	4250 5350 4400 5350
 $Comp
-L Device:R_US R?
+L Device:R_US R1
 U 1 1 5E2951CD
 P 3800 5850
-F 0 "R?" H 3868 5896 50  0000 L CNN
-F 1 "68" H 3868 5805 50  0000 L CNN
-F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" V 3840 5840 50  0001 C CNN
+F 0 "R1" H 3868 5896 50  0000 L CNN
+F 1 "47" H 3868 5805 50  0000 L CNN
+F 2 "Resistor_SMD:R_1206_3216Metric" V 3840 5840 50  0001 C CNN
 F 3 "~" H 3800 5850 50  0001 C CNN
 	1    3800 5850
 	1    0    0    -1  

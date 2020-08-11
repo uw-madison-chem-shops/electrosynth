@@ -5,7 +5,7 @@ $Descr USLetter 11000 8500
 encoding utf-8
 Sheet 9 9
 Title "galvanosynth"
-Date "2019-12-09"
+Date "2020-01-30"
 Rev "4.0.0"
 Comp "University of Wisconsin-Madison"
 Comment1 "Instrument Shop"
@@ -64,7 +64,7 @@ $EndComp
 $Comp
 L power:GND #PWR?
 U 1 1 5E5D6B82
-P 5100 4750
+P 5100 5150
 AR Path="/5E5D6B82" Ref="#PWR?"  Part="1" 
 AR Path="/5E39B760/5E5D6B82" Ref="#PWR0113"  Part="1" 
 AR Path="/5E3EAB60/5E5D6B82" Ref="#PWR0120"  Part="1" 
@@ -74,11 +74,11 @@ AR Path="/5E4039F2/5E5D6B82" Ref="#PWR0138"  Part="1"
 AR Path="/5E4039E0/5E5D6B82" Ref="#PWR0144"  Part="1" 
 AR Path="/5E3EC44B/5E5D6B82" Ref="#PWR0150"  Part="1" 
 AR Path="/5E3ED540/5E5D6B82" Ref="#PWR0156"  Part="1" 
-F 0 "#PWR0113" H 5100 4500 50  0001 C CNN
-F 1 "GND" H 5105 4577 50  0000 C CNN
-F 2 "" H 5100 4750 50  0001 C CNN
-F 3 "" H 5100 4750 50  0001 C CNN
-	1    5100 4750
+F 0 "#PWR0113" H 5100 4900 50  0001 C CNN
+F 1 "GND" H 5105 4977 50  0000 C CNN
+F 2 "" H 5100 5150 50  0001 C CNN
+F 3 "" H 5100 5150 50  0001 C CNN
+	1    5100 5150
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -204,10 +204,10 @@ Wire Wire Line
 Wire Wire Line
 	5300 2800 5600 2800
 $Comp
-L Device:R_US R?
+L Device:R_US R-?
 U 1 1 5E5D6BC6
 P 4150 3500
-AR Path="/5E5D6BC6" Ref="R?"  Part="1" 
+AR Path="/5E5D6BC6" Ref="R-?"  Part="1" 
 AR Path="/5E39B760/5E5D6BC6" Ref="R-1"  Part="1" 
 AR Path="/5E3EAB60/5E5D6BC6" Ref="R-2"  Part="1" 
 AR Path="/5E4039E6/5E5D6BC6" Ref="R-6"  Part="1" 
@@ -298,25 +298,21 @@ F 3 "" H 5000 3600 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 Connection ~ 5300 4400
-Wire Notes Line
-	7500 5000 4500 5000
-Wire Notes Line
-	4500 3600 4500 5000
 Wire Wire Line
 	6000 3800 6000 4100
 Wire Wire Line
 	5300 4400 6850 4400
-Text Notes 6400 4950 0    50   ~ 0
+Text Notes 6300 5250 0    50   ~ 0
 CONSTANT CURRENT DRIVER\nI = V_CONTROL / RV
 Wire Notes Line
 	3800 2500 3800 3600
 Wire Notes Line
 	3800 3600 7500 3600
 $Comp
-L Device:R_US R?
+L Device:R_US R+?
 U 1 1 5E5D6BCC
 P 4150 3000
-AR Path="/5E5D6BCC" Ref="R?"  Part="1" 
+AR Path="/5E5D6BCC" Ref="R+?"  Part="1" 
 AR Path="/5E39B760/5E5D6BCC" Ref="R+1"  Part="1" 
 AR Path="/5E3EAB60/5E5D6BCC" Ref="R+2"  Part="1" 
 AR Path="/5E4039E6/5E5D6BCC" Ref="R+6"  Part="1" 
@@ -332,8 +328,6 @@ F 3 "~" H 4150 3000 50  0001 C CNN
 	1    4150 3000
 	0    -1   1    0   
 $EndComp
-Wire Notes Line
-	7500 2500 7500 5000
 Wire Notes Line
 	3800 2500 7500 2500
 Text Notes 6300 2800 0    50   ~ 0
@@ -371,10 +365,10 @@ Wire Wire Line
 	4500 3000 4800 3000
 Connection ~ 4500 3000
 $Comp
-L Device:R_US R?
+L Device:R_US RG?
 U 1 1 5E66B3AD
 P 4500 3150
-AR Path="/5E66B3AD" Ref="R?"  Part="1" 
+AR Path="/5E66B3AD" Ref="RG?"  Part="1" 
 AR Path="/5E39B760/5E66B3AD" Ref="RG1"  Part="1" 
 AR Path="/5E3EAB60/5E66B3AD" Ref="RG2"  Part="1" 
 AR Path="/5E4039E6/5E66B3AD" Ref="RG6"  Part="1" 
@@ -389,5 +383,32 @@ F 2 "Resistor_SMD:R_1206_3216Metric" V 4540 3140 50  0001 C CNN
 F 3 "~" H 4500 3150 50  0001 C CNN
 	1    4500 3150
 	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	5100 4750 5100 4850
+Wire Notes Line
+	4500 5500 7500 5500
+Wire Notes Line
+	4500 3600 4500 5500
+Wire Notes Line
+	7500 2500 7500 5500
+$Comp
+L Device:R_US RL6
+U 1 1 5E3668AF
+P 5100 5000
+AR Path="/5E4039E6/5E3668AF" Ref="RL6"  Part="1" 
+AR Path="/5E39B760/5E3668AF" Ref="RL1"  Part="1" 
+AR Path="/5E3EAB60/5E3668AF" Ref="RL2"  Part="1" 
+AR Path="/5E4039EC/5E3668AF" Ref="RL7"  Part="1" 
+AR Path="/5E4039F2/5E3668AF" Ref="RL8"  Part="1" 
+AR Path="/5E4039E0/5E3668AF" Ref="RL5"  Part="1" 
+AR Path="/5E3EC44B/5E3668AF" Ref="RL3"  Part="1" 
+AR Path="/5E3ED540/5E3668AF" Ref="RL4"  Part="1" 
+F 0 "RL1" H 5033 4954 50  0000 R CNN
+F 1 "10" H 5033 5045 50  0000 R CNN
+F 2 "Resistor_SMD:R_1206_3216Metric" V 5140 4990 50  0001 C CNN
+F 3 "~" H 5100 5000 50  0001 C CNN
+	1    5100 5000
+	1    0    0    1   
 $EndComp
 $EndSCHEMATC

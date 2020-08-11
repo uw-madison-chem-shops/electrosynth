@@ -5,7 +5,7 @@ $Descr USLetter 11000 8500
 encoding utf-8
 Sheet 1 9
 Title "galvanosynth"
-Date "2020-01-03"
+Date "2020-01-30"
 Rev "4.1.0"
 Comp "University of Wisconsin-Madison"
 Comment1 "Instrument Shop"
@@ -128,7 +128,7 @@ L Device:R_POT_TRIM_US RV0
 U 1 1 5E22E94B
 P 3800 5350
 F 0 "RV0" H 3732 5396 50  0000 R CNN
-F 1 "10k" H 3732 5305 50  0000 R CNN
+F 1 "1k" H 3732 5305 50  0000 R CNN
 F 2 "Potentiometer_THT:Potentiometer_Bourns_3296X_Horizontal" H 3800 5350 50  0001 C CNN
 F 3 "~" H 3800 5350 50  0001 C CNN
 	1    3800 5350
@@ -139,8 +139,8 @@ L Device:R_US R0
 U 1 1 5E22F737
 P 3800 4850
 F 0 "R0" H 3868 4896 50  0000 L CNN
-F 1 "R_US" H 3868 4805 50  0000 L CNN
-F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" V 3840 4840 50  0001 C CNN
+F 1 "10k" H 3868 4805 50  0000 L CNN
+F 2 "Resistor_SMD:R_1206_3216Metric" V 3840 4840 50  0001 C CNN
 F 3 "~" H 3800 4850 50  0001 C CNN
 	1    3800 4850
 	1    0    0    -1  
@@ -159,12 +159,12 @@ $EndComp
 $Comp
 L power:GND #PWR0109
 U 1 1 5E230795
-P 3800 5500
-F 0 "#PWR0109" H 3800 5250 50  0001 C CNN
-F 1 "GND" H 3805 5327 50  0000 C CNN
-F 2 "" H 3800 5500 50  0001 C CNN
-F 3 "" H 3800 5500 50  0001 C CNN
-	1    3800 5500
+P 3800 6000
+F 0 "#PWR0109" H 3800 5750 50  0001 C CNN
+F 1 "GND" H 3805 5827 50  0000 C CNN
+F 2 "" H 3800 6000 50  0001 C CNN
+F 3 "" H 3800 6000 50  0001 C CNN
+	1    3800 6000
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -813,4 +813,17 @@ $EndComp
 Connection ~ 4250 5350
 Wire Wire Line
 	4250 5350 4400 5350
+$Comp
+L Device:R_US R1
+U 1 1 5E2951CD
+P 3800 5850
+F 0 "R1" H 3868 5896 50  0000 L CNN
+F 1 "47" H 3868 5805 50  0000 L CNN
+F 2 "Resistor_SMD:R_1206_3216Metric" V 3840 5840 50  0001 C CNN
+F 3 "~" H 3800 5850 50  0001 C CNN
+	1    3800 5850
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3800 5700 3800 5500
 $EndSCHEMATC
