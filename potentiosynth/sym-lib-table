@@ -1,0 +1,4 @@
+(sym_lib_table
+  (lib (name OP27GPZ)(type Legacy)(uri ${KIPRJMOD}/OP27GPZ.lib)(options "")(descr ""))
+  (lib (name potentiostat-rescue)(type Legacy)(uri ${KIPRJMOD}/potentiostat-rescue.lib)(options "")(descr ""))
+)
