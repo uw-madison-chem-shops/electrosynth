@@ -5,7 +5,7 @@ $Descr USLetter 11000 8500
 encoding utf-8
 Sheet 1 1
 Title "galvanosynth front panel"
-Date "2020-03-03"
+Date "2021-05-07"
 Rev "A"
 Comp "University of Wisconsin-Madison"
 Comment1 "Instrument Shop"
@@ -14,10 +14,10 @@ Comment3 "Blaise Thompson"
 Comment4 "bthompson@chem.wisc.edu"
 $EndDescr
 $Comp
-L Connector_Generic:Conn_01x01 J_CAT1
+L Connector_Generic:Conn_01x01 J_REF1
 U 1 1 5DF46245
 P 2200 1500
-F 0 "J_CAT1" H 2280 1496 50  0000 L CNN
+F 0 "J_REF1" H 2280 1496 50  0000 L CNN
 F 1 "Conn_01x01" H 2280 1451 50  0001 L CNN
 F 2 "Connector:Banana_Jack_1Pin" H 2200 1500 50  0001 C CNN
 F 3 "~" H 2200 1500 50  0001 C CNN
@@ -80,10 +80,10 @@ F 3 "" H 2000 1600 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L Connector_Generic:Conn_01x01 J_ANO1
+L Connector_Generic:Conn_01x01 J_COU1
 U 1 1 5DF46F8C
 P 2200 1900
-F 0 "J_ANO1" H 2280 1896 50  0000 L CNN
+F 0 "J_COU1" H 2280 1896 50  0000 L CNN
 F 1 "Conn_01x01" H 2280 1851 50  0001 L CNN
 F 2 "Connector:Banana_Jack_1Pin" H 2200 1900 50  0001 C CNN
 F 3 "~" H 2200 1900 50  0001 C CNN
@@ -108,10 +108,10 @@ Wire Wire Line
 Wire Wire Line
 	2350 1800 2000 1800
 $Comp
-L Connector_Generic:Conn_01x01 J_CAT2
+L Connector_Generic:Conn_01x01 J_REF2
 U 1 1 5DFBCC73
 P 3200 2000
-F 0 "J_CAT2" H 3280 1996 50  0000 L CNN
+F 0 "J_REF2" H 3280 1996 50  0000 L CNN
 F 1 "Conn_01x01" H 3280 1951 50  0001 L CNN
 F 2 "Connector:Banana_Jack_1Pin" H 3200 2000 50  0001 C CNN
 F 3 "~" H 3200 2000 50  0001 C CNN
@@ -163,10 +163,10 @@ F 3 "" H 3000 2100 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L Connector_Generic:Conn_01x01 J_ANO2
+L Connector_Generic:Conn_01x01 J_COU2
 U 1 1 5DFBCC91
 P 3200 2400
-F 0 "J_ANO2" H 3280 2396 50  0000 L CNN
+F 0 "J_COU2" H 3280 2396 50  0000 L CNN
 F 1 "Conn_01x01" H 3280 2351 50  0001 L CNN
 F 2 "Connector:Banana_Jack_1Pin" H 3200 2400 50  0001 C CNN
 F 3 "~" H 3200 2400 50  0001 C CNN
@@ -188,17 +188,6 @@ Wire Wire Line
 	3400 2200 3350 2200
 Wire Wire Line
 	3350 2200 3350 2300
-$Comp
-L Connector_Generic:Conn_01x01 J_CAT3
-U 1 1 5DFBE078
-P 2200 2500
-F 0 "J_CAT3" H 2280 2496 50  0000 L CNN
-F 1 "Conn_01x01" H 2280 2451 50  0001 L CNN
-F 2 "Connector:Banana_Jack_1Pin" H 2200 2500 50  0001 C CNN
-F 3 "~" H 2200 2500 50  0001 C CNN
-	1    2200 2500
-	1    0    0    -1  
-$EndComp
 $Comp
 L Device:R_US R3
 U 1 1 5DFBE07E
@@ -244,10 +233,10 @@ F 3 "" H 2000 2600 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L Connector_Generic:Conn_01x01 J_ANO3
+L Connector_Generic:Conn_01x01 J_COU3
 U 1 1 5DFBE096
 P 2200 2900
-F 0 "J_ANO3" H 2280 2896 50  0000 L CNN
+F 0 "J_COU3" H 2280 2896 50  0000 L CNN
 F 1 "Conn_01x01" H 2280 2851 50  0001 L CNN
 F 2 "Connector:Banana_Jack_1Pin" H 2200 2900 50  0001 C CNN
 F 3 "~" H 2200 2900 50  0001 C CNN
@@ -272,10 +261,10 @@ Wire Wire Line
 Wire Wire Line
 	2350 2800 2000 2800
 $Comp
-L Connector_Generic:Conn_01x01 J_CAT4
+L Connector_Generic:Conn_01x01 J_REF4
 U 1 1 5DFBEEE9
 P 3200 3000
-F 0 "J_CAT4" H 3280 2996 50  0000 L CNN
+F 0 "J_REF4" H 3280 2996 50  0000 L CNN
 F 1 "Conn_01x01" H 3280 2951 50  0001 L CNN
 F 2 "Connector:Banana_Jack_1Pin" H 3200 3000 50  0001 C CNN
 F 3 "~" H 3200 3000 50  0001 C CNN
@@ -327,10 +316,10 @@ F 3 "" H 3000 3100 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L Connector_Generic:Conn_01x01 J_ANO4
+L Connector_Generic:Conn_01x01 J_COU4
 U 1 1 5DFBEF07
 P 3200 3400
-F 0 "J_ANO4" H 3280 3396 50  0000 L CNN
+F 0 "J_COU4" H 3280 3396 50  0000 L CNN
 F 1 "Conn_01x01" H 3280 3351 50  0001 L CNN
 F 2 "Connector:Banana_Jack_1Pin" H 3200 3400 50  0001 C CNN
 F 3 "~" H 3200 3400 50  0001 C CNN
@@ -353,10 +342,10 @@ Wire Wire Line
 Wire Wire Line
 	3350 3200 3350 3300
 $Comp
-L Connector_Generic:Conn_01x01 J_CAT5
+L Connector_Generic:Conn_01x01 J_REF5
 U 1 1 5DFC1462
 P 2200 3500
-F 0 "J_CAT5" H 2280 3496 50  0000 L CNN
+F 0 "J_REF5" H 2280 3496 50  0000 L CNN
 F 1 "Conn_01x01" H 2280 3451 50  0001 L CNN
 F 2 "Connector:Banana_Jack_1Pin" H 2200 3500 50  0001 C CNN
 F 3 "~" H 2200 3500 50  0001 C CNN
@@ -408,17 +397,6 @@ F 3 "" H 2000 3600 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L Connector_Generic:Conn_01x01 J_ANO5
-U 1 1 5DFC1480
-P 2200 3900
-F 0 "J_ANO5" H 2280 3896 50  0000 L CNN
-F 1 "Conn_01x01" H 2280 3851 50  0001 L CNN
-F 2 "Connector:Banana_Jack_1Pin" H 2200 3900 50  0001 C CNN
-F 3 "~" H 2200 3900 50  0001 C CNN
-	1    2200 3900
-	1    0    0    -1  
-$EndComp
-$Comp
 L power:+15V #PWR015
 U 1 1 5DFC1486
 P 3000 3700
@@ -436,10 +414,10 @@ Wire Wire Line
 Wire Wire Line
 	2350 3800 2000 3800
 $Comp
-L Connector_Generic:Conn_01x01 J_CAT6
+L Connector_Generic:Conn_01x01 J_REF6
 U 1 1 5DFC257D
 P 3200 4000
-F 0 "J_CAT6" H 3280 3996 50  0000 L CNN
+F 0 "J_REF6" H 3280 3996 50  0000 L CNN
 F 1 "Conn_01x01" H 3280 3951 50  0001 L CNN
 F 2 "Connector:Banana_Jack_1Pin" H 3200 4000 50  0001 C CNN
 F 3 "~" H 3200 4000 50  0001 C CNN
@@ -491,10 +469,10 @@ F 3 "" H 3000 4100 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L Connector_Generic:Conn_01x01 J_ANO6
+L Connector_Generic:Conn_01x01 J_COU6
 U 1 1 5DFC259B
 P 3200 4400
-F 0 "J_ANO6" H 3280 4396 50  0000 L CNN
+F 0 "J_COU6" H 3280 4396 50  0000 L CNN
 F 1 "Conn_01x01" H 3280 4351 50  0001 L CNN
 F 2 "Connector:Banana_Jack_1Pin" H 3200 4400 50  0001 C CNN
 F 3 "~" H 3200 4400 50  0001 C CNN
@@ -517,10 +495,10 @@ Wire Wire Line
 Wire Wire Line
 	3350 4200 3350 4300
 $Comp
-L Connector_Generic:Conn_01x01 J_CAT7
+L Connector_Generic:Conn_01x01 J_REF7
 U 1 1 5DFC6974
 P 2200 4500
-F 0 "J_CAT7" H 2280 4496 50  0000 L CNN
+F 0 "J_REF7" H 2280 4496 50  0000 L CNN
 F 1 "Conn_01x01" H 2280 4451 50  0001 L CNN
 F 2 "Connector:Banana_Jack_1Pin" H 2200 4500 50  0001 C CNN
 F 3 "~" H 2200 4500 50  0001 C CNN
@@ -572,10 +550,10 @@ F 3 "" H 2000 4600 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L Connector_Generic:Conn_01x01 J_ANO7
+L Connector_Generic:Conn_01x01 J_COU7
 U 1 1 5DFC6992
 P 2200 4900
-F 0 "J_ANO7" H 2280 4896 50  0000 L CNN
+F 0 "J_COU7" H 2280 4896 50  0000 L CNN
 F 1 "Conn_01x01" H 2280 4851 50  0001 L CNN
 F 2 "Connector:Banana_Jack_1Pin" H 2200 4900 50  0001 C CNN
 F 3 "~" H 2200 4900 50  0001 C CNN
@@ -600,10 +578,10 @@ Wire Wire Line
 Wire Wire Line
 	2350 4800 2000 4800
 $Comp
-L Connector_Generic:Conn_01x01 J_CAT8
+L Connector_Generic:Conn_01x01 J_REF8
 U 1 1 5DFC88DA
 P 3200 5000
-F 0 "J_CAT8" H 3280 4996 50  0000 L CNN
+F 0 "J_REF8" H 3280 4996 50  0000 L CNN
 F 1 "Conn_01x01" H 3280 4951 50  0001 L CNN
 F 2 "Connector:Banana_Jack_1Pin" H 3200 5000 50  0001 C CNN
 F 3 "~" H 3200 5000 50  0001 C CNN
@@ -655,10 +633,10 @@ F 3 "" H 3000 5100 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L Connector_Generic:Conn_01x01 J_ANO8
+L Connector_Generic:Conn_01x01 J_COU8
 U 1 1 5DFC88F8
 P 3200 5400
-F 0 "J_ANO8" H 3280 5396 50  0000 L CNN
+F 0 "J_COU8" H 3280 5396 50  0000 L CNN
 F 1 "Conn_01x01" H 3280 5351 50  0001 L CNN
 F 2 "Connector:Banana_Jack_1Pin" H 3200 5400 50  0001 C CNN
 F 3 "~" H 3200 5400 50  0001 C CNN
@@ -768,4 +746,245 @@ Wire Wire Line
 	6000 2000 6000 1800
 Wire Wire Line
 	3000 4400 2000 4400
+$Comp
+L Connector_Generic:Conn_01x01 J_COU5
+U 1 1 5DFC1480
+P 2200 3900
+F 0 "J_COU5" H 2280 3896 50  0000 L CNN
+F 1 "Conn_01x01" H 2280 3851 50  0001 L CNN
+F 2 "Connector:Banana_Jack_1Pin" H 2200 3900 50  0001 C CNN
+F 3 "~" H 2200 3900 50  0001 C CNN
+	1    2200 3900
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x01 J_REF3
+U 1 1 5DFBE078
+P 2200 2500
+F 0 "J_REF3" H 2280 2496 50  0000 L CNN
+F 1 "Conn_01x01" H 2280 2451 50  0001 L CNN
+F 2 "Connector:Banana_Jack_1Pin" H 2200 2500 50  0001 C CNN
+F 3 "~" H 2200 2500 50  0001 C CNN
+	1    2200 2500
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x01 J_WRK1
+U 1 1 609674D9
+P 8700 2000
+F 0 "J_WRK1" H 8780 1996 50  0000 L CNN
+F 1 "Conn_01x01" H 8780 1951 50  0001 L CNN
+F 2 "Connector:Banana_Jack_1Pin" H 8700 2000 50  0001 C CNN
+F 3 "~" H 8700 2000 50  0001 C CNN
+	1    8700 2000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x01 J_WRK2
+U 1 1 6096876D
+P 8700 2250
+F 0 "J_WRK2" H 8780 2246 50  0000 L CNN
+F 1 "Conn_01x01" H 8780 2201 50  0001 L CNN
+F 2 "Connector:Banana_Jack_1Pin" H 8700 2250 50  0001 C CNN
+F 3 "~" H 8700 2250 50  0001 C CNN
+	1    8700 2250
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x01 J_WRK3
+U 1 1 609690B8
+P 8700 2500
+F 0 "J_WRK3" H 8780 2496 50  0000 L CNN
+F 1 "Conn_01x01" H 8780 2451 50  0001 L CNN
+F 2 "Connector:Banana_Jack_1Pin" H 8700 2500 50  0001 C CNN
+F 3 "~" H 8700 2500 50  0001 C CNN
+	1    8700 2500
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x01 J_WRK4
+U 1 1 60969A06
+P 8700 2750
+F 0 "J_WRK4" H 8780 2746 50  0000 L CNN
+F 1 "Conn_01x01" H 8780 2701 50  0001 L CNN
+F 2 "Connector:Banana_Jack_1Pin" H 8700 2750 50  0001 C CNN
+F 3 "~" H 8700 2750 50  0001 C CNN
+	1    8700 2750
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x01 J_WRK5
+U 1 1 6096A347
+P 8700 3000
+F 0 "J_WRK5" H 8780 2996 50  0000 L CNN
+F 1 "Conn_01x01" H 8780 2951 50  0001 L CNN
+F 2 "Connector:Banana_Jack_1Pin" H 8700 3000 50  0001 C CNN
+F 3 "~" H 8700 3000 50  0001 C CNN
+	1    8700 3000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x01 J_WRK6
+U 1 1 6096AC91
+P 8700 3250
+F 0 "J_WRK6" H 8780 3246 50  0000 L CNN
+F 1 "Conn_01x01" H 8780 3201 50  0001 L CNN
+F 2 "Connector:Banana_Jack_1Pin" H 8700 3250 50  0001 C CNN
+F 3 "~" H 8700 3250 50  0001 C CNN
+	1    8700 3250
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x01 J_WRK7
+U 1 1 6096B632
+P 8700 3500
+F 0 "J_WRK7" H 8780 3496 50  0000 L CNN
+F 1 "Conn_01x01" H 8780 3451 50  0001 L CNN
+F 2 "Connector:Banana_Jack_1Pin" H 8700 3500 50  0001 C CNN
+F 3 "~" H 8700 3500 50  0001 C CNN
+	1    8700 3500
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x01 J_WRK8
+U 1 1 6096BFC1
+P 8700 3750
+F 0 "J_WRK8" H 8780 3746 50  0000 L CNN
+F 1 "Conn_01x01" H 8780 3701 50  0001 L CNN
+F 2 "Connector:Banana_Jack_1Pin" H 8700 3750 50  0001 C CNN
+F 3 "~" H 8700 3750 50  0001 C CNN
+	1    8700 3750
+	1    0    0    -1  
+$EndComp
+$Comp
+L Switch:SW_SPDT SW1
+U 1 1 60970F30
+P 7800 2000
+F 0 "SW1" H 7800 1675 50  0000 C CNN
+F 1 "SW_SPDT" H 7800 1766 50  0000 C CNN
+F 2 "" H 7800 2000 50  0001 C CNN
+F 3 "~" H 7800 2000 50  0001 C CNN
+	1    7800 2000
+	-1   0    0    1   
+$EndComp
+$Comp
+L power:+15V #PWR025
+U 1 1 6098E0DF
+P 8500 1200
+F 0 "#PWR025" H 8500 1050 50  0001 C CNN
+F 1 "+15V" H 8515 1373 50  0000 C CNN
+F 2 "" H 8500 1200 50  0001 C CNN
+F 3 "" H 8500 1200 50  0001 C CNN
+	1    8500 1200
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:LED D9
+U 1 1 6098E80A
+P 8500 1650
+F 0 "D9" H 8500 1550 50  0000 C CNN
+F 1 "LED" H 8500 1500 50  0001 C CNN
+F 2 "Diode_SMD:D_1206_3216Metric" H 8500 1650 50  0001 C CNN
+F 3 "~" H 8500 1650 50  0001 C CNN
+	1    8500 1650
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:R_US R10
+U 1 1 609AFD80
+P 8500 4100
+F 0 "R10" H 8568 4146 50  0000 L CNN
+F 1 "1k" H 8568 4055 50  0000 L CNN
+F 2 "" V 8540 4090 50  0001 C CNN
+F 3 "~" H 8500 4100 50  0001 C CNN
+	1    8500 4100
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:LED D10
+U 1 1 609AFD8C
+P 8500 4400
+F 0 "D10" H 8500 4300 50  0000 C CNN
+F 1 "LED" H 8500 4250 50  0001 C CNN
+F 2 "Diode_SMD:D_1206_3216Metric" H 8500 4400 50  0001 C CNN
+F 3 "~" H 8500 4400 50  0001 C CNN
+	1    8500 4400
+	0    -1   -1   0   
+$EndComp
+$Comp
+L power:GND #PWR028
+U 1 1 609B48BD
+P 8500 4550
+F 0 "#PWR028" H 8500 4300 50  0001 C CNN
+F 1 "GND" H 8505 4377 50  0000 C CNN
+F 2 "" H 8500 4550 50  0001 C CNN
+F 3 "" H 8500 4550 50  0001 C CNN
+	1    8500 4550
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8500 1800 8500 2000
+Connection ~ 8500 2000
+Wire Wire Line
+	8500 2000 8500 2250
+Connection ~ 8500 2250
+Wire Wire Line
+	8500 2250 8500 2500
+Connection ~ 8500 2500
+Wire Wire Line
+	8500 2500 8500 2750
+Connection ~ 8500 2750
+Wire Wire Line
+	8500 2750 8500 3000
+Connection ~ 8500 3000
+Wire Wire Line
+	8500 3000 8500 3250
+Connection ~ 8500 3250
+Wire Wire Line
+	8500 3250 8500 3500
+Connection ~ 8500 3500
+Wire Wire Line
+	8500 3500 8500 3750
+Connection ~ 8500 3750
+Wire Wire Line
+	8500 3750 8500 3950
+Wire Wire Line
+	8500 2000 8000 2000
+$Comp
+L power:GND #PWR027
+U 1 1 609B7E9B
+P 7600 2100
+F 0 "#PWR027" H 7600 1850 50  0001 C CNN
+F 1 "GND" V 7605 1972 50  0000 R CNN
+F 2 "" H 7600 2100 50  0001 C CNN
+F 3 "" H 7600 2100 50  0001 C CNN
+	1    7600 2100
+	0    1    1    0   
+$EndComp
+$Comp
+L power:+15V #PWR026
+U 1 1 609B87FA
+P 7600 1900
+F 0 "#PWR026" H 7600 1750 50  0001 C CNN
+F 1 "+15V" V 7615 2028 50  0000 L CNN
+F 2 "" H 7600 1900 50  0001 C CNN
+F 3 "" H 7600 1900 50  0001 C CNN
+	1    7600 1900
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:R_US R9
+U 1 1 6098D6A8
+P 8500 1350
+F 0 "R9" H 8568 1396 50  0000 L CNN
+F 1 "1k" H 8568 1305 50  0000 L CNN
+F 2 "" V 8540 1340 50  0001 C CNN
+F 3 "~" H 8500 1350 50  0001 C CNN
+	1    8500 1350
+	1    0    0    -1  
+$EndComp
+Text Notes 8750 1700 0    50   ~ 0
+LIGHTS WHEN\nWORKING GROUND\nREDUCTION
+Text Notes 8750 4450 0    50   ~ 0
+LIGHTS WHEN\nWORKING +15V\nOXIDATION
 $EndSCHEMATC
