@@ -1,6 +1,10 @@
 # electrosynth 
 
-Inexpensive circuits made for multi-channel electrochemical synthesis. 
+Inexpensive circuits made for multi-channel electrochemical synthesis.
+Galvanosynth: constant current driver.
+Electrosynth: constant potential driver.
+
+<img src="./coverart.jpg" width="100%"/>
 
 ## Repository
 
