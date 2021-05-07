@@ -4,9 +4,9 @@ EELAYER END
 $Descr USLetter 11000 8500
 encoding utf-8
 Sheet 1 1
-Title "galvanosynth daughter"
-Date "2020-01-30"
-Rev "1.3.0"
+Title "galvanosynth front panel"
+Date "2021-05-07"
+Rev "A"
 Comp "University of Wisconsin-Madison"
 Comment1 "Instrument Shop"
 Comment2 "Department of Chemistry"

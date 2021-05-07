@@ -1,4 +1,4 @@
-# galvanosynth
+# galvanosynth driver-pcb
 
 An inexpensive circuit made for driving multiple electrochemical constant current reactions.
 
