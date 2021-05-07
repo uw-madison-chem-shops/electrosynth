@@ -1,0 +1,29 @@
+# galvanosynth front-panel-pcb
+
+An inexpensive circuit made for driving multiple electrochemical constant current reactions.
+
+## PCB
+
+This PCB was designed using [KiCAD](https://www.kicad.org/) version 5.
+Refer to [front-panel.pdf](./front-panel.pdf) for schematic. 
+PCB images generated with [tracespace](https://github.com/tracespace/tracespace) follow.
+
+<img src="./front-panel-.top.svg" width="100%"/>
+<img src="./front-panel-.bottom.svg" width="100%"/>
+
+## Bill of Materials
+
+| reference      | value         | manufacturer  | part number          | vendors |
+| :------------- | :------------ | :------------ | :------------------- | :------ |
+
+All prices are extended.
+PCB itself should cost around $5.
+
+## Changelog
+
+### Unprinted
+
+### Revision A 
+
+Changed
+- initial design
