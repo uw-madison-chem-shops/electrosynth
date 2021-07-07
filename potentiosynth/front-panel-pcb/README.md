@@ -1,6 +1,6 @@
-# galvanosynth front-panel-pcb
+# potentiosynth front-panel-pcb
 
-An inexpensive circuit made for driving multiple electrochemical constant current reactions.
+An inexpensive circuit made for driving multiple electrochemical constant potential reactions.
 
 ## PCB
 
