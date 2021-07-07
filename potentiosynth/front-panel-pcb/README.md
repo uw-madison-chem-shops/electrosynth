@@ -23,7 +23,10 @@ PCB itself should cost around $5.
 
 ### Unprinted
 
+## Fixed
+- fixed silkscreen labels for oxidation and reduction
+
 ### Revision A 
 
-Changed
+## Changed
 - initial design
