@@ -23,7 +23,10 @@ PCB itself should cost around $5.
 
 ### Unprinted
 
-### Revision D 
+Fixed
+- added buffer amplifier since the differential amplifier drew too much current from reference
+
+### Revision A 
 
 Changed
 - initial design

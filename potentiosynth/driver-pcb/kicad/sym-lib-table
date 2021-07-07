@@ -1,3 +1,4 @@
 (sym_lib_table
   (lib (name TLV9152IDR)(type Legacy)(uri ${KIPRJMOD}/symbols/TLV9152IDR.lib)(options "")(descr ""))
+  (lib (name TLV9154IPWR)(type Legacy)(uri ${KIPRJMOD}/symbols/TLV9154IPWR.lib)(options "")(descr ""))
 )
