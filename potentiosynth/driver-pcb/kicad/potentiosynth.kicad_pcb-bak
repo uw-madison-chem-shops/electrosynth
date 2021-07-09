@@ -12,8 +12,8 @@
   (page USLetter)
   (title_block
     (title potentiosynth)
-    (date 2021-05-11)
-    (rev A)
+    (date 2021-07-07)
+    (rev B)
     (company "University of Wisconsin-Madison")
     (comment 1 "Department of Chemistry")
     (comment 2 "Wickens Group")

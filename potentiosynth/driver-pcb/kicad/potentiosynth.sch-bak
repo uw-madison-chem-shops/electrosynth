@@ -5,8 +5,8 @@ $Descr USLetter 11000 8500
 encoding utf-8
 Sheet 1 9
 Title "potentiosynth"
-Date "2021-05-11"
-Rev "A"
+Date "2021-07-07"
+Rev "B"
 Comp "University of Wisconsin-Madison"
 Comment1 "Wickens Group"
 Comment2 "Department of Chemistry"
@@ -135,15 +135,6 @@ F 3 "" H 9950 1400 50  0001 C CNN
 	1    9950 1400
 	0    1    1    0   
 $EndComp
-$Sheet
-S 6500 4250 1000 750 
-U 5E4039EC
-F0 "7" 50
-F1 "active-feedback.sch" 50
-F2 "ERROR" O R 7500 4550 50 
-F3 "COUNTER" B R 7500 4750 50 
-F4 "REFERENCE" B R 7500 4350 50 
-$EndSheet
 $Sheet
 S 6500 5250 1000 750 
 U 5E4039F2
@@ -540,17 +531,6 @@ F 3 "" H 1300 1150 50  0001 C CNN
 $EndComp
 Connection ~ 1300 1150
 $Comp
-L power:+15V #PWR0161
-U 1 1 5DF3DA55
-P 9950 800
-F 0 "#PWR0161" H 9950 650 50  0001 C CNN
-F 1 "+15V" V 9965 928 50  0000 L CNN
-F 2 "" H 9950 800 50  0001 C CNN
-F 3 "" H 9950 800 50  0001 C CNN
-	1    9950 800 
-	0    -1   -1   0   
-$EndComp
-$Comp
 L power:+15V #PWR0162
 U 1 1 5DF3DF0B
 P 9950 1300
@@ -704,4 +684,24 @@ F 3 "https://www.recom-power.com/pdf/Innoline/R-78xx-0.5.pdf" H 1300 1650 50  00
 	0    -1   -1   0   
 $EndComp
 Connection ~ 1300 1350
+$Sheet
+S 6500 4250 1000 750 
+U 5E4039EC
+F0 "7" 50
+F1 "active-feedback.sch" 50
+F2 "ERROR" O R 7500 4550 50 
+F3 "COUNTER" B R 7500 4750 50 
+F4 "REFERENCE" B R 7500 4350 50 
+$EndSheet
+$Comp
+L power:+15V #PWR0161
+U 1 1 5DF3DA55
+P 9950 800
+F 0 "#PWR0161" H 9950 650 50  0001 C CNN
+F 1 "+15V" V 9965 928 50  0000 L CNN
+F 2 "" H 9950 800 50  0001 C CNN
+F 3 "" H 9950 800 50  0001 C CNN
+	1    9950 800 
+	0    -1   -1   0   
+$EndComp
 $EndSCHEMATC
