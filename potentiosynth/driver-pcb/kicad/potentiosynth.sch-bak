@@ -5,7 +5,7 @@ $Descr USLetter 11000 8500
 encoding utf-8
 Sheet 1 9
 Title "potentiosynth"
-Date "2021-07-07"
+Date "2021-07-09"
 Rev "B"
 Comp "University of Wisconsin-Madison"
 Comment1 "Wickens Group"
@@ -514,7 +514,7 @@ Wire Wire Line
 Wire Wire Line
 	2150 3750 1300 3750
 Wire Wire Line
-	2150 2650 2150 3200
+	2150 2650 2150 2750
 Wire Wire Line
 	1450 2650 2150 2650
 Connection ~ 2150 3200
@@ -704,4 +704,17 @@ F 3 "" H 9950 800 50  0001 C CNN
 	1    9950 800 
 	0    -1   -1   0   
 $EndComp
+$Comp
+L Device:Fuse F1
+U 1 1 60E8EB35
+P 2150 2900
+F 0 "F1" H 2091 2854 50  0000 R CNN
+F 1 "Fuse" H 2091 2945 50  0000 R CNN
+F 2 "footprints:01550900M" V 2080 2900 50  0001 C CNN
+F 3 "~" H 2150 2900 50  0001 C CNN
+	1    2150 2900
+	1    0    0    1   
+$EndComp
+Wire Wire Line
+	2150 3050 2150 3200
 $EndSCHEMATC

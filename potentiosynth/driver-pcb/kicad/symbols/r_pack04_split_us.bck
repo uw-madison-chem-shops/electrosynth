@@ -1,0 +1,15 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP R_Pack04_Split
+D 4 resistor network, parallel topology, split
+K R network parallel topology isolated
+F ~
+$ENDCMP
+#
+$CMP R_Pack04_Split_US
+D 4 resistor network, parallel topology, split
+K R network parallel topology isolated
+F ~
+$ENDCMP
+#
+#End Doc Library
