@@ -23,6 +23,14 @@ PCB itself should cost around $5.
 
 ### Unprinted
 
+### Revision C
+
+Added
+- capacitor makes error detection better when unloaded
+- bipolar error detection
+
+### Revision B
+
 Changed
 - added fuse
 
