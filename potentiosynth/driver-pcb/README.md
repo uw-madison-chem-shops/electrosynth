@@ -18,6 +18,10 @@ PCB images generated with [tracespace](https://github.com/tracespace/tracespace)
 | 3/8 ˝ Square Trimpot® Trimming Potentiometer | $3.00         | Bourns | 3296X-1-202LF | DigiKey |
 | Low-power Operational Amplifier  | $2.00  | Texas Instruments | TLV9154IDR | DigiKey |
 | Fuse Block  | $3.00  | Littelfuse | 01550900M | DigiKey |
+| 1 Amp Fuse  | $2.00  | Littelfuse | 0451001.MRL | DigiKey |
+| PC TEST POINT MULTIPURPOSE RED  | $0.50  | Keystone Electronics | 5010 | Newark |
+| PC TEST POINT MULTIPURPOSE BLACK  | $0.50  | Keystone Electronics | 5011 | Newark |
+| Barrel Jack - 2.1 mm  | $0.50  | CUI | PJ-002A | DigiKey |
 
 All prices are extended.
 PCB itself should cost around $5.
