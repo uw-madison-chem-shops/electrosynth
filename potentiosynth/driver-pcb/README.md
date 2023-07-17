@@ -15,7 +15,7 @@ PCB images generated with [tracespace](https://github.com/tracespace/tracespace)
 
 | reference      | value         | manufacturer  | part number          | vendors |
 | :------------- | :------------ | :------------ | :------------------- | :------ |
-| TRIM POT       | value         | Bourns        | 3296X-1-202LF        | vendors |
+| TRIM POT       | value         | Bourns        | 3296X-1-202LF      | vendors |
 
 All prices are extended.
 PCB itself should cost around $5.
