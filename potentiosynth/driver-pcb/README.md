@@ -15,7 +15,9 @@ PCB images generated with [tracespace](https://github.com/tracespace/tracespace)
 
 | reference      | value         | manufacturer  | part number          | vendors |
 | :------------- | :------------ | :------------ | :------------------- | :------ |
-| TRIM POT       | value         | Bourns        | 3296X-1-202LF      | vendors |
+| 3/8 ˝ Square Trimpot® Trimming Potentiometer | $3.00         | Bourns | 3296X-1-202LF | DigiKey |
+| Low-power Operational Amplifier  | $2.00  | Texas Instruments | TLV9154IDR | DigiKey |
+| Fuse Block  | $3.00  | Littelfuse | 01550900M | DigiKey |
 
 All prices are extended.
 PCB itself should cost around $5.
