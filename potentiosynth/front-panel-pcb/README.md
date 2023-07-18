@@ -15,6 +15,11 @@ PCB images generated with [tracespace](https://github.com/tracespace/tracespace)
 
 | reference      | value         | manufacturer  | part number          | vendors |
 | :------------- | :------------ | :------------ | :------------------- | :------ |
+| Banana Jack Board Mount | $1.00 | Keystone Electronics | 575-4 | Newark |
+| :------------- | :------------ | :------------ | :------------------- | :------ |
+| :------------- | :------------ | :------------ | :------------------- | :------ |
+| :------------- | :------------ | :------------ | :------------------- | :------ |
+| :------------- | :------------ | :------------ | :------------------- | :------ |
 
 All prices are extended.
 PCB itself should cost around $5.
