@@ -13,8 +13,8 @@ PCB images generated with [tracespace](https://github.com/tracespace/tracespace)
 
 ## Bill of Materials
 
-| reference      | value         | manufacturer  | part number          | vendors | Amount per Board |
-| :------------- | :------------ | :------------ | :------------------- | :------ | :--------------  |
+| reference      | value         | manufacturer  | part number          | vendors | # per Board |
+| :------------- | :------------ | :------------ | :------------------- | :------ | :----------  |
 | Banana Jack Board Mount | $1.00 | Keystone Electronics | 575-4 | Newark | 24  |
 | :------------- | :------------ | :------------ | :------------------- | :------ | :--------------  |
 | :------------- | :------------ | :------------ | :------------------- | :------ | :--------------  |
