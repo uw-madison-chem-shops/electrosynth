@@ -22,6 +22,7 @@ PCB images generated with [tracespace](https://github.com/tracespace/tracespace)
 | PC TEST POINT MULTIPURPOSE RED  | $0.50  | Keystone Electronics | 5010 | Newark |
 | PC TEST POINT MULTIPURPOSE BLACK  | $0.50  | Keystone Electronics | 5011 | Newark |
 | Barrel Jack - 2.1 mm  | $0.50  | CUI | PJ-002A | DigiKey |
+| 1/4W < 15V Resistors 1kOhm  | --  | -- | -- | -- |
 
 All prices are extended.
 PCB itself should cost around $5.
