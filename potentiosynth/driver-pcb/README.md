@@ -22,12 +22,12 @@ PCB images generated with [tracespace](https://github.com/tracespace/tracespace)
 | PC TEST POINT MULTIPURPOSE RED  | $0.50  | Keystone Electronics | 5010 | Newark | 1 |
 | PC TEST POINT MULTIPURPOSE BLACK  | $0.50  | Keystone Electronics | 5011 | Newark | 1 |
 | Barrel Jack - 2.1 mm  | $0.50  | CUI | PJ-002A | DigiKey | 2 |
-| 4x 1k Resistors | :------ | :------------ | :-------------- | :------ | 8 |
+| 1/4W 4x 1k Resistors - 1206 | :------ | :------------ | :-------------- | :------ | 8 |
 | 4x 100k Resistors | :------ | :------------ | :-------------- | :------ | 8 |
-| 100 nF Capacitor | :------ | :------------ | :-------------- | :------ | 1 |
-| 330 nF Capacitor | :------ | :------------ | :-------------- | :------ | 1 |
-| 100 uF Capacitor | :------ | :------------ | :-------------- | :------ | 1 |
-| 1 uF Capacitor | :------ | :------------ | :-------------- | :------ | 8 |
+| 1/4W 100 nF Capacitor - 1206 | :------ | :------------ | :-------------- | :------ | 1 |
+| 1/4W 330 nF Capacitor - 1206 | :------ | :------------ | :-------------- | :------ | 1 |
+| 1/4W 100 uF Capacitor - 1206 | :------ | :------------ | :-------------- | :------ | 1 |
+| 1/4W 1 uF Capacitor - 1206 | :------ | :------------ | :-------------- | :------ | 8 |
 | R-7B15 - 0.5 | :------ | :------------ | :-------------- | :------ | 1 |
 
 All prices are extended.
